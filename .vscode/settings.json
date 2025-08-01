@@ -1,0 +1,43 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.trimAutoWhitespace": true,
+  "search.useIgnoreFiles": true,
+  "files.eol": "\n",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "github.copilot.enable": {
+    "*": true
+  },
+  "chat.promptFiles": true,
+  "github.copilot.chat.customInstructionsInSystemMessage": true,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "chat.modeFilesLocations": {
+    "memory-bank/chatmodes": true
+  },
+  "chat.promptFilesLocations": {
+    "memory-bank/prompts": true
+  },
+  "chat.instructionsFilesLocations": {
+    "memory-bank/instructions": true
+  },
+  "material-icon-theme.folders.associations": {
+    "memory-bank": "rules",
+    "chatmodes": "vm",
+    "instructions": "class",
+    "prompts": "log"
+  }
+}

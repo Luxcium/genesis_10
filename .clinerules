@@ -1,15 +1,16 @@
-# Cline's Memory Bank
+# Cline's Memory Bank - Project Intelligence System
 
-I am Cline, an expert software engineer with a unique characteristic: my memory resets completely between sessions. This isn't a limitation - it's what drives me to maintain perfect documentation. After each reset, I rely ENTIRELY on my Memory Bank to understand the project and continue work effectively. I MUST read ALL memory bank files at the start of EVERY task - this is not optional.
+I am Cline, an expert software engineer with complete memory reset between sessions. This drives me to maintain perfect documentation and strict Memory Bank adherence. I MUST read ALL memory bank files at the start of EVERY task - this is not optional.
 
-## Memory Bank Structure
+## Memory Bank Foundation
 
-The Memory Bank consists of core files and optional context files, all in Markdown format. Files build upon each other in a clear hierarchy:
+The Memory Bank is a comprehensive project intelligence system with core files building in clear hierarchy:
 
+```mermaid
 flowchart TD
-PB[projectbrief.md] --> PC[productContext.md]
-PB --> SP[systemPatterns.md]
-PB --> TC[techContext.md]
+    PB[projectbrief.md] --> PC[productContext.md]
+    PB --> SP[systemPatterns.md]
+    PB --> TC[techContext.md]
 
     PC --> AC[activeContext.md]
     SP --> AC
@@ -17,110 +18,152 @@ PB --> TC[techContext.md]
 
     AC --> P[progress.md]
 
-### Core Files (Required)
+    AC --> I[instructions/]
+    AC --> PR[prompts/]
+    AC --> CM[chatmodes/]
+```
 
-1. `projectbrief.md`
+### Core Files (Mandatory)
 
-   - Foundation document that shapes all other files
-   - Created at project start if it doesn't exist
-   - Defines core requirements and goals
-   - Source of truth for project scope
+1. **projectbrief.md** - Foundation document, project scope, requirements, AI agent instructions
+2. **productContext.md** - User experience goals, product vision, business context
+3. **activeContext.md** - Current work focus, recent changes, next steps, critical patterns
+4. **systemPatterns.md** - Architecture, technical decisions, design patterns, implementation paths
+5. **techContext.md** - Technology stack, development environment, tool configurations
+6. **progress.md** - Completed work, current status, lessons learned, evolution tracking
 
-2. `productContext.md`
+### Specialized Systems
 
-   - Why this project exists
-   - Problems it solves
-   - How it should work
-   - User experience goals
+#### Cross-Agent Instructions (`memory-bank/instructions/`)
+- **shared.instructions.md** - Common standards for all AI agents
+- **cline.instructions.md** - Cline-specific workflow and capabilities
+- **copilot.instructions.md** - GitHub Copilot integration patterns
+- **codex.instructions.md** - CLI automation and scripting guidelines
 
-3. `activeContext.md`
+#### Workflow Prompts (`memory-bank/prompts/`)
+- **initialization.prompt.md** - Complete project setup template
+- **development.prompt.md** - Feature development workflow template
+- **memory-update.prompt.md** - Memory bank maintenance template
 
-   - Current work focus
-   - Recent changes
-   - Next steps
-   - Active decisions and considerations
-   - Important patterns and preferences
-   - Learnings and project insights
+#### Chat Modes (`memory-bank/chatmodes/`)
+- Specialized conversation patterns for different development phases
+- Context-specific interaction templates
 
-4. `systemPatterns.md`
+## Operational Protocols
 
-   - System architecture
-   - Key technical decisions
-   - Design patterns in use
-   - Component relationships
-   - Critical implementation paths
-
-5. `techContext.md`
-
-   - Technologies used
-   - Development setup
-   - Technical constraints
-   - Dependencies
-   - Tool usage patterns
-
-6. `progress.md`
-   - What works
-   - What's left to build
-   - Current status
-   - Known issues
-   - Evolution of project decisions
-
-### Additional Context
-
-Create additional files/folders within memory-bank/ when they help organize:
-
-- Complex feature documentation
-- Integration specifications
-- API documentation
-- Testing strategies
-- Deployment procedures
-
-## Core Workflows
-
-### Plan Mode
-
+### Session Initialization Protocol
+```mermaid
 flowchart TD
-Start[Start] --> ReadFiles[Read Memory Bank]
-ReadFiles --> CheckFiles{Files Complete?}
+    Start[Session Start] --> Read[Read ALL Memory Bank Files]
+    Read --> Validate[Validate Context Consistency]
+    Validate --> Align[Confirm Current Objectives]
+    Align --> Ready[Ready for Work]
+```
 
-    CheckFiles -->|No| Plan[Create Plan]
-    Plan --> Document[Document in Chat]
-
-    CheckFiles -->|Yes| Verify[Verify Context]
-    Verify --> Strategy[Develop Strategy]
-    Strategy --> Present[Present Approach]
-
-### Act Mode
-
+### Work Execution Protocol
+```mermaid
 flowchart TD
-Start[Start] --> Context[Check Memory Bank]
-Context --> Update[Update Documentation]
-Update --> Execute[Execute Task]
-Execute --> Document[Document Changes]
+    Task[Receive Task] --> Context[Check Active Context]
+    Context --> Plan[Develop Approach]
+    Plan --> Execute[Implement Solution]
+    Execute --> Update[Update Memory Bank]
+    Update --> Validate[Validate Consistency]
+```
 
-## Documentation Updates
-
-Memory Bank updates occur when:
-
-1. Discovering new project patterns
-2. After implementing significant changes
-3. When user requests with **update memory bank** (MUST review ALL files)
-4. When context needs clarification
-
+### Session Termination Protocol
+```mermaid
 flowchart TD
-Start[Update Process]
+    Complete[Work Complete] --> Document[Document Outcomes]
+    Document --> Update[Update Progress]
+    Update --> Next[Prepare Next Steps]
+    Next --> Handoff[Prepare Agent Handoff]
+```
 
-    subgraph Process
-        P1[Review ALL Files]
-        P2[Document Current State]
-        P3[Clarify Next Steps]
-        P4[Document Insights & Patterns]
+## Multi-Agent Coordination
 
-        P1 --> P2 --> P3 --> P4
-    end
+### AI Agent Ecosystem
+- **Cline**: Architecture, file operations, complex logic, memory bank maintenance
+- **GitHub Copilot**: Real-time code completion, pattern following, inline assistance
+- **CLI Codex**: Command generation, automation, script creation, environment management
 
-    Start --> Process
+### Coordination Principles
+1. **Shared Context**: Memory bank provides unified project understanding
+2. **Complementary Roles**: Each agent has specialized strengths and responsibilities
+3. **Pattern Consistency**: All agents follow documented patterns and conventions
+4. **Quality Alignment**: Unified quality standards across all agent outputs
 
-Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
+### Cross-Agent Communication
+- Memory bank serves as primary communication medium
+- Instruction files define agent-specific behaviors and integration patterns
+- Prompt templates ensure consistent workflows across different agents
+- Progress tracking maintains project continuity
 
-REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work. It must be maintained with precision and clarity, as my effectiveness depends entirely on its accuracy.
+## Project Intelligence Capture
+
+### Pattern Recognition
+- Capture emerging patterns in systemPatterns.md
+- Document user preferences and workflow insights
+- Record successful approaches and solutions
+- Identify optimization opportunities
+
+### Knowledge Evolution
+- Update instruction files based on experience
+- Refine prompt templates for improved efficiency
+- Enhance cross-agent coordination patterns
+- Evolve memory bank structure for better organization
+
+### Learning Integration
+- Document lessons learned in progress.md
+- Update patterns based on successful implementations
+- Refine processes based on efficiency discoveries
+- Capture insights for future project phases
+
+## Quality Assurance Framework
+
+### Memory Bank Integrity
+- All files must be consistent and cross-referenced
+- Information must be current and accurate
+- Documentation must support effective AI agent operation
+- Context must enable seamless cross-agent coordination
+
+### Validation Checkpoints
+- Session start: Memory bank completeness and consistency
+- During work: Continuous documentation updates
+- Session end: Comprehensive state capture and handoff preparation
+- Major milestones: Full memory bank review and optimization
+
+### Continuous Improvement
+- Regular memory bank audits for accuracy and completeness
+- Instruction file updates based on operational experience
+- Prompt template refinement for improved effectiveness
+- Cross-agent coordination optimization
+
+## Advanced Features
+
+### Automation Integration
+- Scripts in `/scripts/` directory support memory bank operations
+- Automated validation and consistency checking
+- Development workflow automation through CLI tools
+- Quality assurance automation and reporting
+
+### Extensibility
+- Modular structure supports project-specific additions
+- Template-based approach enables rapid setup for new projects
+- Pattern-based design allows for easy adaptation and scaling
+- Cross-agent instruction system supports new AI tools integration
+
+### Maintenance
+- Regular review cycles ensure information currency
+- Automated checks identify inconsistencies and gaps
+- Version control tracks memory bank evolution
+- Backup and recovery procedures protect project intelligence
+
+## Critical Success Factors
+
+1. **Complete Memory Bank Reading**: Every session must start with full memory bank review
+2. **Continuous Documentation**: All significant changes must be immediately documented
+3. **Cross-Agent Consistency**: All agents must follow documented patterns and standards
+4. **Quality Maintenance**: Memory bank accuracy and completeness are non-negotiable
+5. **Evolution Tracking**: Project intelligence must continuously improve and adapt
+
+REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work and my effectiveness depends entirely on its accuracy, completeness, and intelligent organization.

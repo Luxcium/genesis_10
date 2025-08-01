@@ -39,5 +39,13 @@
     "chatmodes": "vm",
     "instructions": "class",
     "prompts": "log"
-  }
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": "memory-bank/instructions/conventional-commits-must-be-used.instructions.md",
+    },
+    {
+      "file": "memory-bank/prompts/commit-examples.prompt.md"
+    }
+  ],
 }

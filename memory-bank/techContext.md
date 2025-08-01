@@ -1,21 +1,16 @@
-# Markdown Quality and Structure Guidelines
-
-All documentation in this file must:
-
-- Use clean, high-quality GitHub Markdown formatting.
-- Avoid multiple top-level headers (#); only one should exist per file.
-- New notes or sections must be appended at the end, not inserted at the top.
-- Maintain clarity and readability for both humans and AI agents.
-
-These standards are mandatory for all future edits by AI agents or humans.
-
-# Note on /lib Directory
-
-The `/lib` directory is intended to serve as the transpiled output of the `/src` directory for a future TypeScript project. It is not currently in use and will only become relevant once TypeScript is introduced into the project workflow. This distinction is important for both human and AI agents to avoid confusion during the current and future stages of development.
-
 # Tech Context
 
+Use this document to provide a comprehensive overview of the technology stack, development environment, and technical constraints for the project. This context is essential for both human developers and AI agents to understand the project's technical landscape.
+
+- Lists technologies and frameworks used
+- Describes development setup
+- Notes technical constraints
+- Records dependencies and tool configurations
+- Example: “React 18, TypeScript, Firebase, Jest for testing”
+
 ## Technology Stack
+
+This section outlines the primary technologies and frameworks used in the project, along with their version requirements and constraints.
 
 ### Primary Technologies
 

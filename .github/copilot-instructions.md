@@ -14,6 +14,21 @@ I will always keep an up-to-date set of instructions that I will use to guide my
 
 **As I learn them, I must write them down in the instructions.**
 
+## Markdown Quality and Structure Guidelines
+
+All documentation in this file must:
+
+- Use clean, high-quality GitHub Markdown formatting.
+- Avoid multiple top-level headers (#); only one should exist per file.
+- New notes or sections must be appended at the end, not inserted at the top.
+- Maintain clarity and readability for both humans and AI agents.
+
+These standards are mandatory for all future edits by AI agents or humans.
+
+## Note on /lib Directory
+
+The `/lib` directory is intended to serve as the transpiled output of the `/src` directory for a future TypeScript project. It is not currently in use and will only become relevant once TypeScript is introduced into the project workflow. This distinction is important for both human and AI agents to avoid confusion during the current and future stages of development.
+
 ## Memory Bank
 
 ### What is the Cline Memory Bank

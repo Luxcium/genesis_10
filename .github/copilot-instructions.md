@@ -155,16 +155,43 @@ Don’t force documentation updates - they should happen organically
 Trust the process - the value compounds over time
 Watch for context confirmation at the start of sessions
 ​
-
-#### Documentation Flow
+### Documentation Flow
 
 projectbrief.md is your foundation
 activeContext.md changes most frequently
 progress.md tracks your milestones
 All files collectively maintain project intelligence
 
+The Memory Bank methodology is an open approach to AI context management and can be adapted to our different tools and workflows.
+
+## Memory Bank Core Files (Required)
+
+**Memory Bank Files to Always Check/Update**:
+
+1. [`projectbrief.md`](../memory-bank/projectbrief.md)
+
+> `memory-bank/projectbrief.md` This file contains a high-level overview of the project
+
+1. [`productContext.md`](../memory-bank/productContext.md)
+
+> `memory-bank/productContext.md` product-specific context
+
+1. [`activeContext.md`](../memory-bank/activeContext.md)
+
+> `memory-bank/activeContext.md` current work focus - MOST CRITICAL FILE
+
+4. [`systemPatterns.md`](../memory-bank/systemPatterns.md)
+
+> `memory-bank/systemPatterns.md` technical decisions
+
+5. [`techContext.md`](../memory-bank/techContext.md)
+
+> `memory-bank/techContext.md` technologies, constraints
+
+6. [`progress.md`](../memory-bank/progress.md)
+
+> `memory-bank/progress.md` track what works, what's left
+
 ### Remember
 
 The Memory Bank is your AI agent's only link to previous work. Its effectiveness depends entirely on maintaining clear, accurate documentation and confirming context preservation in every interaction.
-
-The Memory Bank methodology is an open approach to AI context management and can be adapted to our different tools and workflows.

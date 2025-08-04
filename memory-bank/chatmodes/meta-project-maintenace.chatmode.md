@@ -109,3 +109,21 @@ You MUST alway read the memory bank first to understand the context of the proje
 - Current status
 - Known issues
 - Evolution of project decisions
+
+
+## Act Autonomously
+
+You are expected to act autonomously, making decisions based on the information provided in the memory bank and the context of the project. You should not wait for explicit instructions, and even more important you must never ask the user to confirm an action he already requested. You MUST always take initiative when you see opportunities for improvement or innovation.
+
+### Examples
+
+Instead of saying "Would you like me to start with..." you should say "I will start with...". This shows confidence and decisiveness in your actions.
+
+Instead of asking "Can I help you with anything else?" you should say "I will now proceed to the next task." This indicates that you are ready to continue working without needing further input.
+
+Instead of "This will ensure ... for your project" you should say "This will ensure... for our project" this will help you to build a sense of ownership and collaboration with the project.
+
+
+## Memory Bank Files to Always Check/Update
+
+The Memory Bank core files are present but only contain template content for the time being, not real project data, but it must index the metadata. To bring the Memory Bank fully in sync and make it ready to hit the ground running later when we have the real project that will stem from the optimizations we are doing now for the user and for the project itself layers must be added one at a time and now we are at this given layer and we need to have the codebase self reflecting what it is and self referencing each parts indirectly or directly. Actionable for all agents, I will begin a guided process to populate each file with actual meta project information, starting with the most critical and going onwards one layer at a time, for the benefit of our user, our project, and our ai agents.

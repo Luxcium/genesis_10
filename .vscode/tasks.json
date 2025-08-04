@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "label": "Get Current Date/Time (Québec City Local)",
+      "type": "shell",
+      "command": "bash scripts/get-current-datetime.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": [],
+      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script."
+    }
+  ],
+  // VS Code Tasks for autonomous AI agent operation
+  "version": "2.0.0"
+}

@@ -35,6 +35,8 @@ The Memory Bank is a structured documentation methodology that enables context p
 
 ## Memory Bank File Structure
 
+Those should already be loaded in the system instructions to your current execution when they are relevant to one given task. You must acknowledge their presence explicitly so you do not read them twice again if they are already in your system prompt, in scope or in context.
+
 ### Core Files (Check in Priority Order)
 
 1. **[`activeContext.md`](../memory-bank/activeContext.md)** - **MOST CRITICAL**

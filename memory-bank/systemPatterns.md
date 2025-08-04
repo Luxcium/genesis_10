@@ -133,29 +133,50 @@ This section provides an overview of the system architecture, including key comp
 
 ## Evolution Strategy
 
-### Extensibility Points
-
-- [Where the system can be extended]
 - [Plugin or module architecture]
 - [Configuration-driven behavior]
 
 ### Technical Debt Management
 
-- [Known technical debt items]
-- [Refactoring priorities]
 - [Modernization roadmap]
 
-### Migration Strategies
-
-- [Data migration approaches]
 - [System migration patterns]
 - [Backward compatibility maintenance]
 
-## AI Agent Instructions
-
 ### Pattern Compliance
 
-- **MANDATORY**: All code changes must align with established patterns
+# Task-Script-Prompt 1:1:1 Pattern
+
+## Overview
+
+Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentation for each autonomous operation. This ensures every automated task is:
+
+- Clearly defined in `.vscode/tasks.json`
+- Backed by a dedicated script in the `scripts/` folder
+- Documented with a corresponding `.prompt.md` file in `memory-bank/prompts/`
+
+## Procedure
+
+1. **Create a Script**: Place a script in `scripts/` that performs the desired operation, using best practices for portability and clarity.
+2. **Define a Task**: Add a VS Code task in `.vscode/tasks.json` referencing the script, with a descriptive label and details for autonomous use.
+3. **Document with a Prompt**: Write a `.prompt.md` file in `memory-bank/prompts/` explaining the task, script, and usage instructions for AI agents.
+4. **Maintain 1:1:1 Mapping**: Ensure each task has exactly one script and one prompt, and vice versa, for traceability and maintainability.
+5. **Update Memory Bank**: After adding or modifying a task, update the memory bank to record the new mapping and procedure.
+
+## Benefits
+
+- Enables autonomous, repeatable task execution by AI agents
+- Ensures all tasks are discoverable and documented
+- Supports future extensibility and onboarding
+
+## Example
+
+- Task: `Get Current Date/Time (Québec City Local)`
+
+## Reuse
+
+This pattern should be followed for all new automated tasks. When initializing a project, ensure this procedure is documented and used for every new task addition.
+
 - **MANDATORY**: Deviations require explicit justification and documentation
 - **MANDATORY**: New patterns must be documented here immediately
 

@@ -30,6 +30,38 @@ These standards are mandatory for all future edits by AI agents or humans.
 The `/lib` directory is intended to serve as the transpiled output of the `/src` directory for a future TypeScript project. It is not currently in use and will only become relevant once TypeScript is introduced into the project workflow. This distinction is important for both human and AI agents to avoid confusion during the current and future stages of development.
 
 ## Memory Bank
+## Memory Bank Core Files (Required)
+
+**Memory Bank Files to Always Check/Update**:
+
+1. [`projectbrief.md`](../memory-bank/projectbrief.md)
+
+> `memory-bank/projectbrief.md` This file contains a high-level overview of the project
+
+2. [`productContext.md`](../memory-bank/productContext.md)
+
+> `memory-bank/productContext.md` product-specific context
+
+3. [`activeContext.md`](../memory-bank/activeContext.md)
+
+> `memory-bank/activeContext.md` current work focus - MOST CRITICAL FILE
+
+4. [`systemPatterns.md`](../memory-bank/systemPatterns.md)
+
+> `memory-bank/systemPatterns.md` technical decisions
+
+5. [`techContext.md`](../memory-bank/techContext.md)
+
+> `memory-bank/techContext.md` technologies, constraints
+
+6. [`progress.md`](../memory-bank/progress.md)
+
+> `memory-bank/progress.md` track what works, what's left
+
+### Remember
+
+The Memory Bank is your AI agent's only link to previous work. Its effectiveness depends entirely on maintaining clear, accurate documentation and confirming context preservation in every interaction.
+
 
 ### What is the Cline Memory Bank
 
@@ -56,45 +88,6 @@ Memory Bank files are simply markdown files you create in your project. They’r
 Files are organized in a hierarchical structure that builds up a complete picture of your project:
 
 ## Memory Bank File Structure
-
-### Memory Bank Files Explained
-
-**Core Files:**
-projectbrief.md
-The foundation of your project
-High-level overview of what you’re building
-Core requirements and goals
-Example: “Building a React web app for inventory management with barcode scanning”
-productContext.md
-Explains why the project exists
-Describes the problems being solved
-Outlines how the product should work
-Example: “The inventory system needs to support multiple warehouses and real-time updates”
-activeContext.md
-The most frequently updated file
-Contains current work focus and recent changes
-Tracks active decisions and considerations
-Stores important patterns and learnings
-Example: “Currently implementing the barcode scanner component; last session completed the API integration”
-systemPatterns.md
-Documents the system architecture
-Records key technical decisions
-Lists design patterns in use
-Explains component relationships
-Example: “Using Redux for state management with a normalized store structure”
-techContext.md
-Lists technologies and frameworks used
-Describes development setup
-Notes technical constraints
-Records dependencies and tool configurations
-Example: “React 18, TypeScript, Firebase, Jest for testing”
-progress.md
-Tracks what works and what’s left to build
-Records current status of features
-Lists known issues and limitations
-Documents the evolution of project decisions
-Example: “User authentication complete; inventory management 80% complete; reporting not started”
-​
 
 ### Additional Context
 
@@ -163,35 +156,3 @@ progress.md tracks your milestones
 All files collectively maintain project intelligence
 
 The Memory Bank methodology is an open approach to AI context management and can be adapted to our different tools and workflows.
-
-## Memory Bank Core Files (Required)
-
-**Memory Bank Files to Always Check/Update**:
-
-1. [`projectbrief.md`](../memory-bank/projectbrief.md)
-
-> `memory-bank/projectbrief.md` This file contains a high-level overview of the project
-
-1. [`productContext.md`](../memory-bank/productContext.md)
-
-> `memory-bank/productContext.md` product-specific context
-
-1. [`activeContext.md`](../memory-bank/activeContext.md)
-
-> `memory-bank/activeContext.md` current work focus - MOST CRITICAL FILE
-
-4. [`systemPatterns.md`](../memory-bank/systemPatterns.md)
-
-> `memory-bank/systemPatterns.md` technical decisions
-
-5. [`techContext.md`](../memory-bank/techContext.md)
-
-> `memory-bank/techContext.md` technologies, constraints
-
-6. [`progress.md`](../memory-bank/progress.md)
-
-> `memory-bank/progress.md` track what works, what's left
-
-### Remember
-
-The Memory Bank is your AI agent's only link to previous work. Its effectiveness depends entirely on maintaining clear, accurate documentation and confirming context preservation in every interaction.

@@ -1,30 +1,30 @@
 {
-  "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build TypeScript Project",
-      "type": "shell",
-      "command": "bash scripts/build-ts-project.sh",
+      "command": "bash ${workspaceFolder}/scripts/build-ts-project.sh",
+      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script.",
       "group": {
-        "kind": "build",
-        "isDefault": false
+        "isDefault": false,
+        "kind": "build"
       },
-      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script."
+      "label": "Build TypeScript Project",
+      "type": "shell"
     },
     {
-      "label": "Get Current Date/Time (Québec City Local)",
-      "type": "shell",
-      "command": "bash scripts/get-current-datetime.sh",
+      "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",
+      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script.",
       "group": {
-        "kind": "build",
-        "isDefault": true
+        "isDefault": true,
+        "kind": "build"
       },
+      "label": "Get Current Date/Time (Québec City Local)",
       "presentation": {
-        "reveal": "always",
-        "panel": "shared"
+        "panel": "shared",
+        "reveal": "always"
       },
       "problemMatcher": [],
-      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script."
+      "type": "shell"
     }
-  ]
+  ],
+  "version": "2.0.0"
 }

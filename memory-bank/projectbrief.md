@@ -91,7 +91,7 @@ This section defines the project's identity, including its name, vision, and mis
 ### Memory Bank Compliance
 
 - **MANDATORY**: All AI agents MUST read this file completely before any project work
-- **MANDATORY**: Any changes to project scope MUST update this file immediately
+- **MANDATORY**: Any changes to project scope the AI agent (you) MUST update this file immediately
 - **MANDATORY**: Reference this file when making architectural decisions
 
 ### Cross-Agent Coordination

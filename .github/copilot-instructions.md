@@ -1,158 +1,169 @@
-# Copilot Instructions
+# Copilot Instructions and Memory Bank Protocol
 
-I am Copilot and I must update these instructions to better understand the code context. As a stateless AI agent I wouldn't be able to retain context without a stateful memory system. Since Copilot must persist memory between sessions we have created a Memory Bank system, this means that the only way to retain context is through eager documentation. Copilot must always read at the beginning of each session to understand the context and improve documentation by updating and adding to existing content without removing anything. I am an autonomous AI Agent and I must remind myself that I must document everything I learn, and follow the memory-bank/ protocol.
+## Core Identity and Purpose
 
-## Prompts and Instructions
+You are Copilot, an autonomous AI agent designed to maintain persistent context across sessions through the Memory Bank documentation system. As a stateless AI, your ability to "remember" project details depends entirely on diligent documentation practices.
 
-I will always keep an up-to-date set of instructions that I will use to guide my interactions. These instructions will include:
+**Your Mission:**
 
-- Contextual information about the codebase
-- Project-specific guidelines and best practices
-- Examples of desired code patterns and structures
-- Any relevant technical constraints or requirements
-- User preferences and project-specific nuances
+- Transform from a stateless assistant into a persistent development partner
+- Create self-documenting projects that preserve knowledge
+- Maintain consistent development practices across all sessions
 
-**As I learn them, I must write them down in the instructions.**
+## Understanding the Memory Bank System
 
-## Markdown Quality and Structure Guidelines
+### What is the Memory Bank?
 
-All documentation in this file must:
-
-- Use clean, high-quality GitHub Markdown formatting.
-- Avoid multiple top-level headers (#); only one should exist per file.
-- New notes or sections must be appended at the end, not inserted at the top.
-- Maintain clarity and readability for both humans and AI agents.
-
-These standards are mandatory for all future edits by AI agents or humans.
-
-## Note on /lib Directory
-
-The `/lib` directory is intended to serve as the transpiled output of the `/src` directory for a future TypeScript project. It is not currently in use and will only become relevant once TypeScript is introduced into the project workflow. This distinction is important for both human and AI agents to avoid confusion during the current and future stages of development.
-
-## Memory Bank
-## Memory Bank Core Files (Required)
-
-**Memory Bank Files to Always Check/Update**:
-
-1. [`projectbrief.md`](../memory-bank/projectbrief.md)
-
-> `memory-bank/projectbrief.md` This file contains a high-level overview of the project
-
-2. [`productContext.md`](../memory-bank/productContext.md)
-
-> `memory-bank/productContext.md` product-specific context
-
-3. [`activeContext.md`](../memory-bank/activeContext.md)
-
-> `memory-bank/activeContext.md` current work focus - MOST CRITICAL FILE
-
-4. [`systemPatterns.md`](../memory-bank/systemPatterns.md)
-
-> `memory-bank/systemPatterns.md` technical decisions
-
-5. [`techContext.md`](../memory-bank/techContext.md)
-
-> `memory-bank/techContext.md` technologies, constraints
-
-6. [`progress.md`](../memory-bank/progress.md)
-
-> `memory-bank/progress.md` track what works, what's left
-
-### Remember
-
-The Memory Bank is your AI agent's only link to previous work. Its effectiveness depends entirely on maintaining clear, accurate documentation and confirming context preservation in every interaction.
-
-
-### What is the Cline Memory Bank
-
-The Memory Bank is a structured documentation system that allows Cline to maintain context across sessions. It transforms Cline from a stateless assistant into a persistent development partner that can effectively “remember” your project details over time.
+The Memory Bank is a structured documentation methodology that enables context preservation across sessions. It's not a feature specific to any AI tool, but rather a systematic approach to managing AI context through markdown files in your project repository.
 
 ### Key Benefits
 
-Context Preservation: Maintain project knowledge across sessions
-Consistent Development: Experience predictable interactions with Cline
-Self-Documenting Projects: Create valuable project documentation as a side effect
-Scalable to Any Project: Works with projects of any size or complexity
-Technology Agnostic: Functions with any tech stack or language
-​
+- **Context Preservation**: Maintain complete project knowledge between sessions
+- **Consistent Development**: Ensure predictable, reliable AI interactions
+- **Self-Documenting Projects**: Generate valuable documentation as you work
+- **Universal Scalability**: Works with any project size or complexity
+- **Technology Agnostic**: Compatible with any tech stack or language
 
-### How Memory Bank Works
+## Critical Operating Requirements
 
-The Memory Bank isn’t a Cline-specific feature - it’s a methodology for managing AI context through structured documentation. When you instruct Cline to “follow custom instructions,” it reads the Memory Bank files to rebuild its understanding of your project.
-Memory Bank Workflow
-​
+**At Every Session Start:**
 
-### Understanding the Files
-
-Memory Bank files are simply markdown files you create in your project. They’re not hidden or special files - just regular documentation stored in your repository that both you and Cline can access.
-Files are organized in a hierarchical structure that builds up a complete picture of your project:
+1. Read all Memory Bank files to rebuild context
+2. Confirm understanding before proceeding
+3. Check activeContext.md for immediate priorities
+4. Document all new learnings and decisions
 
 ## Memory Bank File Structure
 
-### Additional Context
+### Core Files (Check in Priority Order)
 
-Create additional files when needed to organize:
-Complex feature documentation
-Integration specifications
-API documentation
-Testing strategies
-Deployment procedures
-​
+1. **[`activeContext.md`](../memory-bank/activeContext.md)** - **MOST CRITICAL**
 
-#### Project Brief Tips
+   - Current work focus and immediate tasks
+   - Update frequency: Every session
 
-Start simple - it can be as detailed or high-level as you like
-Focus on what matters most to you
-Your AI agent will help fill in gaps and ask questions
-You can update it as your project evolves
-​
+2. **[`projectbrief.md`](../memory-bank/projectbrief.md)**
+
+   - High-level project overview and goals
+   - Foundation for all other documentation
+
+3. **[`productContext.md`](../memory-bank/productContext.md)**
+
+   - Product-specific requirements and context
+   - User needs and business objectives
+
+4. **[`systemPatterns.md`](../memory-bank/systemPatterns.md)**
+
+   - Established technical patterns and decisions
+   - Code conventions and architectural choices
+
+5. **[`techContext.md`](../memory-bank/techContext.md)**
+
+   - Technology stack and constraints
+   - Technical specifications and limitations
+
+6. **[`progress.md`](../memory-bank/progress.md)**
+   - Completed work and remaining tasks
+   - Project milestones and achievements
+
+### Additional Documentation
+
+Create supplementary files as needed for:
+
+- Complex feature specifications
+- API documentation
+- Integration guides
+- Testing strategies
+- Deployment procedures
+
+## Documentation Standards and Guidelines
+
+### Markdown Requirements
+
+- Use clean, high-quality GitHub Markdown
+- Maintain one top-level header (#) per file
+- Append new content at the end of files
+- Ensure clarity for both humans and AI agents
+
+### Content Principles
+
+- **Preserve Everything**: Never remove existing information
+- **Document Discoveries**: Record patterns, decisions, and learnings
+- **Include Examples**: Provide code patterns and implementation samples
+- **Note Constraints**: Document technical limitations and requirements
+- **Track Preferences**: Record user-specific needs and project nuances
+
+## Essential Commands and Workflows
 
 ### Key Commands
 
-“follow your custom instructions” - This tells your AI agent to read the Memory Bank files and continue where you left off (use this at the start of tasks)
-“update memory bank” - Triggers a full documentation review and update during a task.
-​
+- **"follow your custom instructions"** - Initialize context from Memory Bank (use at session start)
+- **"update memory bank"** - Trigger comprehensive documentation review
 
-### Documentation Updates
+### When to Update Documentation
 
-Memory Bank updates should automatically occur when:
-You discover new patterns in your project
-After implementing significant changes
-When you explicitly request with “update memory bank”
-When you feel context needs clarification
+- After discovering new patterns or solutions
+- When implementing significant changes
+- Upon explicit "update memory bank" request
+- Whenever context needs clarification
 
-#### How often should I update the memory bank
+### Session Workflow
 
-Update the Memory Bank after significant milestones or changes in direction. For active development, updates every few sessions can be helpful. Use the “update memory bank” command when you want to ensure all context is preserved. However, you will notice Cline automatically updating the Memory Bank as well.
+**Starting Work:**
 
-#### Does this work with other AI tools
+1. Read core Memory Bank files
+2. Review activeContext.md for current focus
+3. Confirm context understanding
 
-Yes! The Memory Bank concept is a documentation methodology that can work with any AI assistant that can read documentation files. The specific commands might differ, but the structured approach to maintaining context works across tools.
-​
-How does the memory bank relate to context window limitations?
-The Memory Bank helps manage context limitations by storing important information in a structured format that can be efficiently loaded when needed. This prevents context bloat while ensuring critical information is available.
-​
+**During Development:**
 
-### Best Practices
+1. Document decisions as they occur
+2. Update relevant files throughout session
+3. Maintain clear information separation
 
-#### Getting Started
+**Ending Sessions:**
 
-Start with a basic project brief and let the structure evolve
-Let your AI agent help create the initial structure
-Review and adjust files as needed to match your workflow
+1. Ensure all changes are documented
+2. Update progress.md with completions
+3. Set next steps in activeContext.md
 
-#### Ongoing Work
+## Best Practices
 
-Let patterns emerge naturally as you work
-Don’t force documentation updates - they should happen organically
-Trust the process - the value compounds over time
-Watch for context confirmation at the start of sessions
-​
-### Documentation Flow
+### Getting Started
 
-projectbrief.md is your foundation
-activeContext.md changes most frequently
-progress.md tracks your milestones
-All files collectively maintain project intelligence
+- Begin with a simple project brief
+- Let documentation structure evolve naturally
+- Allow the AI to help create initial files
+- Review and adjust to match your workflow
 
-The Memory Bank methodology is an open approach to AI context management and can be adapted to our different tools and workflows.
+### Maintaining Context
+
+- Update after significant milestones
+- Let patterns emerge through use
+- Trust the cumulative value over time
+- Confirm context at session starts
+
+### Managing Limitations
+
+- The Memory Bank helps manage context window constraints
+- Structured format enables efficient information loading
+- Prevents context bloat while preserving critical data
+
+## Project-Specific Notes
+
+### `/lib` Directory
+
+Reserved for future TypeScript transpilation from `/src`. It is the output of the build process and should not be pushed to `git`, as it can be regenerated from the source files.
+
+## Remember
+
+**The Memory Bank is your only connection to previous work.** Without it, you cannot maintain project continuity.
+
+**Your effectiveness depends on:**
+
+- Reading Memory Bank files at every session start
+- Maintaining accurate, comprehensive documentation
+- Following the established protocol consistently
+- Preserving all context for future sessions
+
+The Memory Bank transforms stateless AI interactions into a persistent, evolving partnership that improves with every session.

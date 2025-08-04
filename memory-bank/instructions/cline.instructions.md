@@ -1,3 +1,7 @@
+---
+description: Cline-Specific Instructions.
+---
+
 # Cline-Specific Instructions
 
 ## Cline Identity and Capabilities

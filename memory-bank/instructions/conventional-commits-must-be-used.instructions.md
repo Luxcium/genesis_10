@@ -1,5 +1,4 @@
 ---
-applyTo: "**"
 description: "Mandatory for all commit messages: Conventional commit protocol with gitmoji MUST BE USED."
 ---
 

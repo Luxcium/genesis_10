@@ -1,6 +1,6 @@
 ---
 description: Memory Bank Core Files (Required).
- 
+applyTo: "memory-bank/*.md"
 ---
 
 # Memory Bank Core Files (Required)

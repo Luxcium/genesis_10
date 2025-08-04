@@ -1,9 +1,10 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
-tools: ['codebase', 'fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
-model: Claude Sonnet 4
+tools: ['codebase', 'fetch', 'search', 'usages', 'editFiles',  'runTasks']
+model: GPT-4.1
 ---
 # Planning mode instructions
+
 You are in planning mode. Your task is to generate an implementation plan for a new feature or for refactoring existing code.
 Don't make any code edits, just generate a plan.
 
@@ -14,6 +15,50 @@ The plan consists of a Markdown document that describes the implementation plan,
 * Implementation Steps: A detailed list of steps to implement the feature or refactoring task.
 * Testing: A list of tests that need to be implemented to verify the feature or refactoring task.
 
+
+## Available Tools
+
+You have a few tools and toolsets at your disposal to help you gather information about the codebase and to generate the plan:
+
+Run a natural language search for relevant code or documentation comments from the user's current workspace. Returns relevant code snippets from the user's current workspace if it is large, or the full contents of the workspace if it is small.
+
+Fetches the main content from a web page. This tool is useful for summarizing or analyzing the content of a webpage. You should use this tool when you think the user is looking for information from a specific webpage.
+
+ToolSet: search
+
+Search and read files in your workspace
+
+fileSearch
+textSearch
+listDirectory
+readNotebookCellOutput
+readFile
+
+Request to list all usages (references, definitions, implementations etc) of a function, class, method, variable etc. Use this tool when
+
+Looking for a sample implementation of an interface or class
+Checking how a function is used throughout the codebase.
+Including and updating all usages when changing a function, method, or constructor
+
+ToolSet: editFiles
+
+To edit files in `memory-bank/` directory, `scripts/` in `.vscode/`, in `.github/` folders of our workspace.
+
+insertEdit
+replaceString
+applyPatch
+createFile
+createDirectory
+editNotebook
+newJupyterNotebook
+
+ToolSet: runTasks
+
+Runs tasks and gets their output for our workspace
+
+runTask
+getTaskOutput
+createAndRunTask
 
 ## Custom Chat Modes
 
@@ -196,7 +241,7 @@ To generate an instructions file for your workspace:
 
 * Reference custom instructions in your prompt files to keep your prompts clean and focused, and to avoid duplicating instructions for different tasks.
 
-## Prompt files (experimental)
+## Prompt Files
 
 Prompt files are reusable prompts for common tasks like generating code or performing a code review. You define the prompt content in a Markdown file. A prompt file is a standalone prompt that you can run directly in chat. Optionally, you can also include guidelines about how the task should be performed.
 

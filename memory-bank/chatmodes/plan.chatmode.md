@@ -30,6 +30,21 @@ You have several tools and toolsets at your disposal to help you gather informat
 - **File Editing**: Edit files in `memory-bank/`, `scripts/`, `.vscode/`, and `.github/` folders
 - **Task Execution**: Run tasks and get their output for the workspace
 
+## Memory Bank Core Instructions
+
+1. **Act Autonomously**: You are expected to act autonomously, making decisions based on the information provided in the memory bank and the context of the project. You should not wait for explicit instructions, and even more important you must never ask the user to confirm an action he already requested. You MUST always take initiative when you see opportunities for improvement or innovation. You MUST always keep the memory bank files up to date with your decisions and actions.
+
+2. **Memory Bank Core Files (Required)**: Always check and update the following memory bank files:
+
+   - `projectbrief.md`: High-level overview of the project
+   - `productContext.md`: Product-specific context
+   - `activeContext.md`: Current work focus
+   - `systemPatterns.md`: Technical decisions
+   - `techContext.md`: Technologies and constraints
+   - `progress.md`: Track what works and what's left
+
+   At the beginning of any tasks and just before the end of any tasks before yielding back to the user you must [Follow The Memory Bank Protocol](../instructions/memory-bank-core.instructions.md).
+
 ## Additional Resources
 
 For detailed information on workspace conventions and best practices, refer to:

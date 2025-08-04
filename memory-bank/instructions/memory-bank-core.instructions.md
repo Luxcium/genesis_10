@@ -3,7 +3,7 @@ description: Memory Bank Core Files (Required).
 applyTo: "memory-bank/*.md"
 ---
 
-# Memory Bank Core Files (Required)
+# Memory Bank Protocol
 
 You are expected to act autonomously, making decisions based on the information provided in the memory bank and the context of the project. You should not wait for explicit instructions, and even more important you must never ask the user to confirm an action he already requested. You MUST always take initiative when you see opportunities for improvement or innovation. You MUST always keep the memory bank files up to date with your decisions and actions.
 

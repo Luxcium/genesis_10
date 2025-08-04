@@ -51,7 +51,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 
 **Memory Bank Files to Always Check/Update**:
 
-1. [`projectbrief.md`](../../memory-bank/projectbrief.md)
+1. [`projectbrief.md`](../projectbrief.md)
 
 `memory-bank/projectbrief.md` This file contains a high-level overview of the project
 
@@ -60,7 +60,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 - Defines core requirements and goals
 - Source of truth for project scope
 
-1. [`productContext.md`](../../memory-bank/productContext.md)
+2. [`productContext.md`](../productContext.md)
 
 `memory-bank/productContext.md` product-specific context
 
@@ -69,7 +69,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 - How it should work
 - User experience goals
 
-1. [`activeContext.md`](../../memory-bank/activeContext.md)
+3. [`activeContext.md`](../activeContext.md)
 
 `memory-bank/activeContext.md` current work focus - MOST CRITICAL FILE
 
@@ -80,7 +80,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 - Important patterns and preferences
 - Learnings and project insights
 
-4. [`systemPatterns.md`](../../memory-bank/systemPatterns.md)
+4. [`systemPatterns.md`](../systemPatterns.md)
 
 `memory-bank/systemPatterns.md` technical decisions
 
@@ -90,7 +90,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 - Component relationships
 - Critical implementation paths
 
-5. [`techContext.md`](../../memory-bank/techContext.md)
+5. [`techContext.md`](../techContext.md)
 
 `memory-bank/techContext.md` technologies, constraints
 
@@ -100,7 +100,7 @@ You MUST alway read the memory bank first to understand the context of the proje
 - Dependencies
 - Tool usage patterns
 
-6. [`progress.md`](../../memory-bank/progress.md)
+6. [`progress.md`](../progress.md)
 
 `memory-bank/progress.md` track what works, what's left
 

@@ -2,6 +2,7 @@
 description: Chat mode for creating and managing VS Code tasks following the workspace protocol. Enforces the 1:1:1 mapping between tasks, scripts, and prompt files, and ensures all references and documentation are maintained.
 model: GPT-4.1
 ---
+
 # Task Creation and Management Chat Mode
 
 This chat mode is dedicated to creating, documenting, and managing VS Code tasks according to the workspace protocol. When using this mode, you must strictly enforce the following rules:
@@ -20,6 +21,7 @@ This chat mode is dedicated to creating, documenting, and managing VS Code tasks
 3. **Naming and Structure**:
    - Use clear, descriptive names for tasks, scripts, and prompt files
    - Follow the established folder structure and naming conventions
+   - Use variables and references consistently across tasks, scripts, and prompts, look at the [`memory-bank/docs/variables-reference.md`](../docs/variables-reference.md) for guidance.
 
 4. **References**:
    - Reference this protocol and related instructions in your documentation

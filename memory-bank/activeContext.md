@@ -11,24 +11,26 @@ Meta-maintenance and documentation synchronization
 **Active Sprint/Iteration:**
 Memory Bank population and validation (August 2025)
 
-## Recent Changes
+### Recent Changes
 
 ### Last Session Summary
 
 - Confirmed all Memory Bank core files are present but only contain template content
 - Updated documentation READMEs for prompts, instructions, chatmodes, and scripts to accurately reflect folder contents
 - Rebuilt context by reading all Memory Bank core files to rebuild project context at session start
+- Added TypeScript build task, script, and prompt (1:1:1 protocol) for future development
 
 ### Recent Decisions
 
 - Begin guided process to populate each Memory Bank file with actual meta project information
 - Prioritize `activeContext.md` as the most critical file for current state
 - Confirmed understanding of project context and immediate priorities
+- Enforce 1:1:1 mapping for all new tasks (script, prompt, documentation)
 
 ### Code Changes
 
-- No code changes; documentation and Memory Bank maintenance only
-- Updated `activeContext.md` with session start documentation for guided process initiation
+- Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
+- Updated scripts/README.md and prompts/README.md
 
 ## Next Steps
 

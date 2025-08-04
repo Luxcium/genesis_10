@@ -1,5 +1,16 @@
 {
+  "version": "2.0.0",
   "tasks": [
+    {
+      "label": "Build TypeScript Project",
+      "type": "shell",
+      "command": "bash scripts/build-ts-project.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script."
+    },
     {
       "label": "Get Current Date/Time (Québec City Local)",
       "type": "shell",
@@ -15,7 +26,5 @@
       "problemMatcher": [],
       "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script."
     }
-  ],
-  // VS Code Tasks for autonomous AI agent operation
-  "version": "2.0.0"
+  ]
 }

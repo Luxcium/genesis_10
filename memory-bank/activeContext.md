@@ -1,5 +1,8 @@
 # Active Context
 
+See [docs/README.md](docs/README.md) for an index of Memory Bank documentation.
+
+
 ## Current Work Focus
 
 **Primary Objective:**
@@ -13,6 +16,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added `docs/README.md` summarizing Memory Bank documentation and linked it from core files
 - Added VS Code tasks and prompt files for memory bank initialization, validation, and system information scripts
 - Added `memory-bank/README.md` with subfolder policy and `README.stub.md` template
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
@@ -39,6 +43,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Added `memory-bank/docs/README.md` and cross-referenced it in Memory Bank core files
 - Added VS Code tasks and prompts for memory bank initialization, validation, and system info scripts
 - Added `memory-bank/README.md` and `README.stub.md` for subfolder documentation policy
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode

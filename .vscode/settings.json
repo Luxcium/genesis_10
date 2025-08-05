@@ -46,7 +46,6 @@
     "memory-bank/prompts": true
   },
   "editor.bracketPairColorization.enabled": true,
-  "github.copilot.chat.agent.autoFix": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "always",
@@ -69,10 +68,16 @@
   ],
   "editor.tabSize": 4,
   "editor.trimAutoWhitespace": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.incrementalNaming": "smart",
+  "explorer.sortOrder": "type",
+  "explorer.sortOrderReverse": false,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "github.copilot.chat.agent.autoFix": true,
   "github.copilot.chat.codeGeneration.useInstructionFiles": true,
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
@@ -103,5 +108,7 @@
     "memory-bank": "rules",
     "prompts": "log"
   },
-  "search.useIgnoreFiles": true
+  "search.useIgnoreFiles": true,
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.alwaysShowEditorActions": true
 }

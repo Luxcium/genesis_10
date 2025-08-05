@@ -12,7 +12,7 @@
     },
     {
       "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",
-      "detail": "Outputs the current local date/time for Qu\u00e9bec City (America/Toronto timezone) using the related script.",
+      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script.",
       "group": {
         "isDefault": true,
         "kind": "build"

@@ -145,9 +145,9 @@ This section provides an overview of the system architecture, including key comp
 
 ### Pattern Compliance
 
-# Task-Script-Prompt 1:1:1 Pattern
+## Task-Script-Prompt 1:1:1 Pattern
 
-## Overview
+### Overview
 
 Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentation for each autonomous operation. This ensures every automated task is:
 
@@ -155,7 +155,7 @@ Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentati
 - Backed by a dedicated script in the `scripts/` folder
 - Documented with a corresponding `.prompt.md` file in `memory-bank/prompts/`
 
-## Procedure
+### Procedure
 
 1. **Create a Script**: Place a script in `scripts/` that performs the desired operation, using best practices for portability and clarity.
 2. **Define a Task**: Add a VS Code task in `.vscode/tasks.json` referencing the script, with a descriptive label and details for autonomous use.
@@ -163,30 +163,30 @@ Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentati
 4. **Maintain 1:1:1 Mapping**: Ensure each task has exactly one script and one prompt, and vice versa, for traceability and maintainability.
 5. **Update Memory Bank**: After adding or modifying a task, update the memory bank to record the new mapping and procedure.
 
-## Benefits
+### Benefits
 
 - Enables autonomous, repeatable task execution by AI agents
 - Ensures all tasks are discoverable and documented
 - Supports future extensibility and onboarding
 
-## Example
+### Example
 
 - Task: `Get Current Date/Time (Québec City Local)`
 
-## Reuse
+### Reuse
 
 This pattern should be followed for all new automated tasks. When initializing a project, ensure this procedure is documented and used for every new task addition.
 
 - **MANDATORY**: Deviations require explicit justification and documentation
 - **MANDATORY**: New patterns must be documented here immediately
 
-### Architecture Enforcement
+#### Architecture Enforcement
 
 - **MANDATORY**: Verify component relationships before modifications
 - **MANDATORY**: Ensure interface contracts are maintained
 - **MANDATORY**: Performance implications must be considered
 
-### Cross-Agent Coordination
+#### Cross-Agent Coordination
 
 - This file defines the technical foundation all AI agents must respect
 - Architecture changes require consensus and full documentation

@@ -49,10 +49,10 @@ You have several tools and toolsets at your disposal to help you gather informat
 
 For detailed information on workspace conventions and best practices, refer to:
 
-- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md)
-- [Instructions Files Usage](../instructions/instructions-files.instructions.md)
-- [Prompt Files Creation](../instructions/prompt-files.instructions.md)
-- [Workspace Settings Configuration](../instructions/settings.instructions.md)
+[Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md)
+[Instructions Files Usage](../instructions/instructions-files.instructions.md)
+[Prompt Files Creation](../instructions/prompt-files.instructions.md)
+[Workspace Settings Configuration](../instructions/settings.instructions.md)
 
 
 ## ToolSet: editFiles

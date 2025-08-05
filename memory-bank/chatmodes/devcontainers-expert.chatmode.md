@@ -1,6 +1,5 @@
 ---
 description: Expert guidance on dev containers setup, configuration, troubleshooting, and best practices for VS Code development environments.
-model: GPT-4.1
 ---
 
 # DevContainers Expert Chat Mode

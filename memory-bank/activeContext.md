@@ -2,7 +2,6 @@
 
 See [docs/README.md](docs/README.md) for an index of Memory Bank documentation.
 
-
 ## Current Work Focus
 
 **Primary Objective:**
@@ -60,10 +59,11 @@ Memory Bank population and validation (August 2025)
 
 ### Immediate Actions (Next Session)
 
-1. Populate `projectbrief.md` with meta project identity, vision, and goals
-2. Update `productContext.md` with product vision and user experience context
-3. Fill in `systemPatterns.md`, `techContext.md`, and `progress.md` with real project data
-4. Ensure all internal documentation in `memory-bank/instructions/` is referenced in the Memory Bank and cross-linked where relevant.
+1. **Run the 'Get Current Date/Time (Québec City Local)' task at the start of every session to record the current time context.**
+2. Populate `projectbrief.md` with meta project identity, vision, and goals
+3. Update `productContext.md` with product vision and user experience context
+4. Fill in `systemPatterns.md`, `techContext.md`, and `progress.md` with real project data
+5. Ensure all internal documentation in `memory-bank/instructions/` is referenced in the Memory Bank and cross-linked where relevant.
 
 ### Upcoming Priorities (Next 2-3 Sessions)
 

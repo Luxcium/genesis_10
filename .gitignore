@@ -23,7 +23,7 @@ Thumbs.db
 # Build output
 dist/
 build/
-lib/
+
 # Misc
 *.swp
 *.swo

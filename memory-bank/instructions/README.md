@@ -14,6 +14,14 @@ This directory contains specialized instructions files for AI agents and develop
 
 **Purpose:** Defines Cline-specific workflows, tool usage, and session protocols. Outlines session initialization, plan/act modes, file and development operations, memory bank integration, and error handling. Emphasizes documentation, cross-agent handoff, and quality assurance for Cline.
 
+### [copilot.instructions.md](../instructions/copilot.instructions.md)
+
+**Purpose:** Placeholder for future GitHub Copilot workflows and guidelines.
+
+### [codex.instructions.md](../instructions/codex.instructions.md)
+
+**Purpose:** Placeholder for future CLI Codex automation guidelines.
+
 ### [conventional-commits-must-be-used.instructions.md](../instructions/conventional-commits-must-be-used.instructions.md)
 
 **Purpose:** Mandates the use of conventional commit messages with gitmoji. Details required commit types, formatting, and best practices for clarity and traceability. Includes a reference table of commit types and essential gitmoji.
@@ -45,6 +53,10 @@ This directory contains specialized instructions files for AI agents and develop
 ### [shared.instructions.md](../instructions/shared.instructions.md)
 
 **Purpose:** Establishes shared standards and protocols for all AI agents, including memory bank adherence, documentation and code standards, workflow protocols, quality standards, and emergency procedures for conflict or corruption.
+
+### [placeholder-dirs.instructions.md](../instructions/placeholder-dirs.instructions.md)
+
+**Purpose:** Provides guidelines for the `lib/`, `web/`, and `python/` directories, outlining their roles as placeholders and expectations for future development.
 
 ---
 

@@ -99,6 +99,16 @@ genesis_10/
 └── notebooks/                           # Jupyter notebooks
 ```
 
+### Placeholder Directories
+
+These directories are pre-created for future development:
+
+- `lib/` – Shared libraries reusable across project components
+- `web/` – Web assets and front-end code
+- `python/` – Python modules and tooling
+
+Each contains a `.gitkeep` file until real content is added.
+
 ## 🤖 AI Agent Coordination
 
 ### Supported AI Agents

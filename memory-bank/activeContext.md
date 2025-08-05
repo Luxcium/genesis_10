@@ -17,6 +17,8 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added placeholder directories `lib/`, `web/`, and `python/` with `.gitkeep` files and supporting script, task, prompt, and instructions for future development
+- Added placeholder `copilot.instructions.md` and `codex.instructions.md` to satisfy memory bank validation
 
 ### Last Session Summary
 
@@ -33,6 +35,7 @@ Memory Bank population and validation (August 2025)
 - Prioritized comprehensive coverage over simplified approaches for maximum utility
 - Followed strict Memory Bank protocols and chatmode creation guidelines
 - Decided to reference and integrate all internal documentation in `memory-bank/instructions/` for agent context and discoverability.
+- Chose to retain `lib/`, `web/`, and `python/` as placeholder directories and document their intended use
 
 ### Code Changes
 
@@ -41,6 +44,8 @@ Memory Bank population and validation (August 2025)
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
 - Previously: Updated scripts/README.md and prompts/README.md
 - Referenced internal instructions documentation in Memory Bank core files.
+- Added `scripts/init-placeholder-dirs.sh`, `Initialize Placeholder Directories` task, `init-placeholder-dirs.prompt.md`, and `placeholder-dirs.instructions.md`
+- Added `copilot.instructions.md` and `codex.instructions.md` placeholder files
 
 ## Next Steps
 

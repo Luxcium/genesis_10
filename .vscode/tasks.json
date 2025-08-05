@@ -24,6 +24,21 @@
       },
       "problemMatcher": [],
       "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/init-placeholder-dirs.sh",
+      "detail": "Creates lib, web, and python directories with .gitkeep files.",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Initialize Placeholder Directories",
+      "presentation": {
+        "panel": "shared",
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "type": "shell"
     }
   ],
   "version": "2.0.0"

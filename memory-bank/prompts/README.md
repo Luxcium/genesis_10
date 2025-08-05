@@ -50,6 +50,10 @@ This directory contains reusable prompt templates for common tasks, workflows, a
 
 **Purpose:** Ensures comprehensive memory bank updates, maintaining consistency across all files and providing complete context for AI agents. Includes review checklists and update workflows.
 
+### [init-placeholder-dirs.prompt.md](../prompts/init-placeholder-dirs.prompt.md)
+
+**Purpose:** Runs the script that creates `lib/`, `web/`, and `python/` directories with `.gitkeep` files, establishing placeholders for future development.
+
 ---
 
 > **Note:** For detailed content, see each `.prompt.md` file directly. All prompts are cross-referenced and follow the Memory Bank protocol for persistent, high-quality documentation.

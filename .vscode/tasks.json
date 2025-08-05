@@ -8,7 +8,7 @@
         "kind": "build"
       },
       "label": "Build TypeScript Project",
-      "type": "shell",
+      "type": "shell"
     },
     {
       "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",

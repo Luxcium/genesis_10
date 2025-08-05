@@ -81,8 +81,8 @@ If you encounter issues with Prettier formatting or plugin errors in VS Code:
   - If issues persist, try updating or reinstalling the Prettier extension and plugins.
 
 ## Related Documentation
-- [prompt-files.instructions.md](./prompt-files.instructions.md)
-- [memory-bank-core.instructions.md](./memory-bank-core.instructions.md)
+- [prompt-files.instructions.md](../instructions/prompt-files.instructions.md)
+- [memory-bank-core.instructions.md](../instructions/memory-bank-core.instructions.md)
 - [README.md](../../README.md)
 
 ## After creation and maintenance

@@ -17,6 +17,7 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added base `tsconfig.json` and updated TypeScript build prompt and documentation
 
 ### Last Session Summary
 
@@ -25,6 +26,7 @@ Memory Bank population and validation (August 2025)
 - Followed Memory Bank protocol and chatmode creation guidelines strictly
 - Updated chatmodes documentation to maintain synchronization
 - Began referencing internal instructions documentation in all relevant Memory Bank files.
+- Established baseline TypeScript configuration and aligned build documentation
 
 ### Recent Decisions
 
@@ -41,6 +43,7 @@ Memory Bank population and validation (August 2025)
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
 - Previously: Updated scripts/README.md and prompts/README.md
 - Referenced internal instructions documentation in Memory Bank core files.
+- Added root `tsconfig.json` and updated `scripts/README.md` and `build-ts-project.prompt.md`
 
 ## Next Steps
 

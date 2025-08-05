@@ -35,6 +35,7 @@ This section provides a high-level overview of the project's current state, incl
 
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
+- 2025-08-05: Added base `tsconfig.json` and aligned build documentation
 
 ### Features Implemented
 
@@ -45,6 +46,7 @@ This section provides a high-level overview of the project's current state, incl
 
 - TypeScript build script (`scripts/build-ts-project.sh`) and VS Code task (`Build TypeScript Project`) in place
 - DevContainers Expert chat mode (`memory-bank/chatmodes/devcontainers-expert.chatmode.md`) with full knowledge base integration
+- Base TypeScript configuration (`tsconfig.json`) established in repository root
 
 ## Current Work
 

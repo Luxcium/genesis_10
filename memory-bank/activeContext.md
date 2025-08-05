@@ -13,6 +13,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added missing `mode`, `model`, and `tools` fields to the TypeScript build and current datetime prompt files
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
@@ -36,6 +37,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Updated `memory-bank/prompts/build-ts-project.prompt.md` and `memory-bank/prompts/get-current-datetime.prompt.md` with required front matter fields
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`

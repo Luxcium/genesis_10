@@ -1,4 +1,7 @@
 ---
+mode: 'agent'
+model: GPT-4.1
+tools: ['runTasks', 'terminal-and-tasks']
 description: Prompt for building the TypeScript project in the src folder using the build script and VS Code task. Explains the build process and how to use the task.
 ---
 # Build TypeScript Project Prompt

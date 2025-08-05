@@ -1,6 +1,8 @@
 ---
-description: Get the current local date and time in Québec City (America/Toronto timezone).
+mode: 'agent'
+model: GPT-4.1
 tools: ['runTasks', 'terminal-and-tasks']
+description: Get the current local date and time in Québec City (America/Toronto timezone).
 ---
 
 # Get Current Date/Time (Québec City Local)

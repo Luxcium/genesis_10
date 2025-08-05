@@ -46,9 +46,21 @@ This directory contains reusable prompt templates for common tasks, workflows, a
 
 **Purpose:** Provides a template for generating new `.prompt.md` files, including required front matter, file structure, content guidelines, and references for quality and consistency.
 
+### [memory-bank-init.prompt.md](../prompts/memory-bank-init.prompt.md)
+
+**Purpose:** Describes how to initialize a complete Memory Bank structure using the associated script and VS Code task.
+
+### [memory-bank-validate.prompt.md](../prompts/memory-bank-validate.prompt.md)
+
+**Purpose:** Explains how to verify Memory Bank completeness and consistency with the validation script and task.
+
 ### [memory-update.prompt.md](../prompts/memory-update.prompt.md)
 
 **Purpose:** Ensures comprehensive memory bank updates, maintaining consistency across all files and providing complete context for AI agents. Includes review checklists and update workflows.
+
+### [system-info.prompt.md](../prompts/system-info.prompt.md)
+
+**Purpose:** Shows how to display basic system details and disk usage via the system-info script and task.
 
 ---
 

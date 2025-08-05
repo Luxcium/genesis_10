@@ -13,6 +13,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added VS Code tasks for memory bank initialization, validation, and system information with matching prompts and README updates
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
@@ -36,6 +37,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Added tasks in `.vscode/tasks.json` for memory bank initialization, validation, and system information, created corresponding prompt files, and updated documentation
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`

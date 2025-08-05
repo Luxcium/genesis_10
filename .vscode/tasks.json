@@ -24,6 +24,16 @@
       },
       "problemMatcher": [],
       "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/memory-bank-run.sh",
+      "detail": "Initializes and validates the memory bank using the memory-bank-run.sh script.",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Run Memory Bank Workflow",
+      "type": "shell"
     }
   ],
   "version": "2.0.0"

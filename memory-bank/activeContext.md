@@ -17,6 +17,7 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added composite memory bank workflow: `scripts/memory-bank-run.sh`, `Run Memory Bank Workflow` task, and `memory-bank-run.prompt.md` for sequential initialization and validation
 
 ### Last Session Summary
 
@@ -41,6 +42,7 @@ Memory Bank population and validation (August 2025)
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
 - Previously: Updated scripts/README.md and prompts/README.md
 - Referenced internal instructions documentation in Memory Bank core files.
+- Added `scripts/memory-bank-run.sh`, `Run Memory Bank Workflow` task, and `memory-bank-run.prompt.md` to automate memory bank initialization and validation
 
 ## Next Steps
 

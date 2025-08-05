@@ -30,6 +30,10 @@ This directory contains reusable prompt templates for common tasks, workflows, a
 
 **Purpose:** Explains how to use the autonomous AI agent task for retrieving the current local date and time in Québec City, referencing the related script and VS Code task.
 
+### [memory-bank-run.prompt.md](../prompts/memory-bank-run.prompt.md)
+
+**Purpose:** Runs memory bank initialization and validation sequentially via the composite script and VS Code task.
+
 ### [gitmoji-complete-list.prompt.md](../prompts/gitmoji-complete-list.prompt.md)
 
 **Purpose:** Contains a complete list of gitmoji for conventional commits, with selection guidelines to help choose the most appropriate emoji for each commit type.

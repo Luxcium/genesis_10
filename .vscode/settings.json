@@ -46,6 +46,7 @@
     "memory-bank/prompts": true
   },
   "editor.bracketPairColorization.enabled": true,
+  "github.copilot.chat.agent.autoFix": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "always",

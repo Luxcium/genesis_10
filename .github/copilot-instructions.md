@@ -97,6 +97,8 @@ Create supplementary files as needed for:
 
 ## Essential Commands and Workflows
 
+Automatically fix diagnostics for edited files, always seek to maintain consistency with the Memory Bank protocol, and ensure all changes are documented.
+
 ### Key Commands
 
 - **"follow your custom instructions"** - Initialize context from Memory Bank (use at session start)

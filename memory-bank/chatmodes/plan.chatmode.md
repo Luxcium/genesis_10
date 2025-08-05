@@ -1,6 +1,6 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
-tools: ['codebase', 'fetch', 'search', 'usages', 'editFiles', 'runTasks']
+tools: ['codebase', 'usages', 'editFiles', 'runTasks',  'fetch', 'search',]
 model: GPT-4.1
 ---
 
@@ -25,7 +25,7 @@ You have several tools and toolsets at your disposal to help you gather informat
 
 - **Semantic Search**: Run natural language searches for relevant code or documentation
 - **Web Fetch**: Fetch content from web pages for research and analysis
-- **Search Toolset**: Search and read files in your workspace
+- **Search Toolset**: Search and read files in our workspace
 - **Usage Analysis**: List all usages of functions, classes, methods, variables
 - **File Editing**: Edit files in `memory-bank/`, `scripts/`, `.vscode/`, and `.github/` folders
 - **Task Execution**: Run tasks and get their output for the workspace
@@ -53,3 +53,37 @@ For detailed information on workspace conventions and best practices, refer to:
 - [Instructions Files Usage](../instructions/instructions-files.instructions.md)
 - [Prompt Files Creation](../instructions/prompt-files.instructions.md)
 - [Workspace Settings Configuration](../instructions/settings.instructions.md)
+
+
+## ToolSet: editFiles
+
+Edit files in our workspace
+
+**File Editing**: Edit files in
+- `memory-bank/`,
+    - `memory-bank/prompts/`,
+    - `memory-bank/chatmodes/`,
+    - `memory-bank/instructions/`,
+- `scripts/`,
+- `.vscode/`,
+- `.github/` folders
+
+### Available Commands
+
+- insertEdit
+- replaceString
+- applyPatch
+- createFile
+- createDirectory
+- editNotebook
+- newJupyterNotebook
+
+## ToolSet: search
+
+Search and read files in entire workspace
+
+- fileSearch
+- textSearch
+- listDirectory
+- readNotebookCellOutput
+- readFile

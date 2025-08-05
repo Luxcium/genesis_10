@@ -1,6 +1,5 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
-model: GPT-4.1
 tools: [
     "codebase",
     "fetch",
@@ -14,6 +13,7 @@ tools: [
     "vscodeAPI",
     "terminalLastCommand",
   ]
+model: GPT-4.1
 ---
 
 # Meta Project Maintenance Mode Instructions

@@ -1,5 +1,7 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
+tools: ['codebase', 'usages', 'editFiles', 'runTasks', 'fetch', 'search', 'vscode-api-toolset']
+model: GPT-4.1
 ---
 
 # Main Project Chatmode

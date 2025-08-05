@@ -1,5 +1,6 @@
 ---
 description: Expert guidance on dev containers setup, configuration, troubleshooting, and best practices for VS Code development environments.
+tools: ['codebase', 'usages', 'editFiles', 'runTasks', 'fetch', 'search', 'vscode-api-toolset']
 model: GPT-4.1
 ---
 

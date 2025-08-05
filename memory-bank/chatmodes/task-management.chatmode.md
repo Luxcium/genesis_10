@@ -1,5 +1,6 @@
 ---
 description: Chat mode for creating and managing VS Code tasks following the workspace protocol. Enforces the 1:1:1 mapping between tasks, scripts, and prompt files, and ensures all references and documentation are maintained.
+tools: ['codebase', 'usages', 'editFiles', 'runTasks', 'fetch', 'search', 'vscode-api-toolset']
 model: GPT-4.1
 ---
 

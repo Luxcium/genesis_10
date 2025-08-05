@@ -18,6 +18,7 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added VS Code tasks for memory bank initialization and validation; updated prompts to reference them
 
 ### Last Session Summary
 
@@ -40,6 +41,7 @@ Memory Bank population and validation (August 2025)
 - Added `memory-bank/README.md` and `README.stub.md` for subfolder documentation policy
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode
+- Added VS Code tasks for memory bank initialization and validation and linked related prompts
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
 - Previously: Updated scripts/README.md and prompts/README.md
 - Referenced internal instructions documentation in Memory Bank core files.

@@ -37,16 +37,19 @@ This section provides a high-level overview of the project's current state, incl
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
 - 2025-08-05: Introduced `memory-bank/README.md` policy requiring README in every subfolder and provided `README.stub.md` template
 
+
 ### Features Implemented
 
 - **TypeScript Build Task**: Fully implemented, documented, and protocol-compliant
 - **DevContainers Expert Chat Mode**: Comprehensive expert assistance for all dev container scenarios including setup, configuration, troubleshooting, and best practices
 - **Subfolder README Policy**: Ensures each memory bank subdirectory documents its purpose using `README.stub.md`
+ 
 
 ### Technical Infrastructure
 
 - TypeScript build script (`scripts/build-ts-project.sh`) and VS Code task (`Build TypeScript Project`) in place
 - DevContainers Expert chat mode (`memory-bank/chatmodes/devcontainers-expert.chatmode.md`) with full knowledge base integration
+- Memory bank initialization (`scripts/memory-bank-init.sh`) and validation (`scripts/memory-bank-validate.sh`) scripts with corresponding VS Code tasks
 
 ## Current Work
 

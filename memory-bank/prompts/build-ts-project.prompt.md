@@ -3,7 +3,7 @@ description: Prompt for building the TypeScript project in the src folder using 
 ---
 # Build TypeScript Project Prompt
 
-This prompt describes the process for building the TypeScript project located in the `src` folder. The build is performed using the `build-ts-project.sh` script, which runs the TypeScript compiler (`tsc`) with the configuration in `src/tsconfig.json`.
+This prompt describes the process for building the TypeScript project located in the `src` folder. The build is performed using the `build-ts-project.sh` script, which runs the TypeScript compiler (`tsc`) using the root-level `tsconfig.json` and dependencies from `package.json`.
 
 ## Usage
 - Run the VS Code task: **Build TypeScript Project**

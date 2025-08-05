@@ -2,7 +2,7 @@
   "tasks": [
     {
       "command": "bash ${workspaceFolder}/scripts/build-ts-project.sh",
-      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script.",
+      "detail": "Builds the TypeScript project in the src folder using package.json and tsconfig.json via the build-ts-project.sh script.",
       "group": {
         "isDefault": false,
         "kind": "build"

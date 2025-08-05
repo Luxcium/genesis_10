@@ -93,9 +93,11 @@ This section defines the project's identity, including its name, vision, and mis
 - **MANDATORY**: All AI agents MUST read this file completely before any project work
 - **MANDATORY**: Any changes to project scope the AI agent (you) MUST update this file immediately
 - **MANDATORY**: Reference this file when making architectural decisions
+- **MANDATORY**: Reference and consult internal documentation and instructions in `memory-bank/instructions/` for project protocols, conventions, and operational guidance.
 
 ### Cross-Agent Coordination
 
 - This file serves as the authoritative project definition for all AI tools
 - Updates require full memory bank synchronization
 - Conflicts with this brief indicate need for clarification or scope adjustment
+- Internal documentation in `memory-bank/instructions/` supplements this brief and should be referenced for detailed instructions, conventions, and process documentation.

@@ -173,15 +173,18 @@ This section provides a high-level overview of the project's current state, incl
 - **MANDATORY**: Update this file after every significant work session
 - **MANDATORY**: Document all completed work with specific outcomes
 - **MANDATORY**: Record new issues and blockers immediately when discovered
+- **MANDATORY**: Reference internal documentation and instructions in `memory-bank/instructions/` for progress tracking protocols, update procedures, and documentation standards.
 
 ### Status Reporting
 
 - **MANDATORY**: Maintain accurate completion percentages for each project phase
 - **MANDATORY**: Update current work sections before starting new tasks
 - **MANDATORY**: Document lessons learned while they are fresh
+- **MANDATORY**: Consult `memory-bank/instructions/` for reporting standards, documentation templates, and update workflows.
 
 ### Cross-Agent Coordination
 
 - This file provides the authoritative project status for all AI agents
 - All agents must sync progress updates to maintain consistency
 - Conflicting progress reports indicate need for reconciliation and clarification
+- Internal documentation in `memory-bank/instructions/` supplements this file and should be referenced for all progress tracking and reporting procedures.

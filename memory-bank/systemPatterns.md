@@ -12,6 +12,17 @@ Use this document to define the system architecture, design patterns, and key te
 
 This section provides an overview of the system architecture, including key components and their interactions.
 
+## Internal Documentation and Instructions
+
+All system patterns, conventions, and technical protocols are further detailed in the internal documentation located in `memory-bank/instructions/`. This directory contains:
+
+- Protocols for chatmode creation, prompt files, and instructions files
+- Prettier and formatting configuration
+- Shared conventions and operational guidelines
+- Documentation for Memory Bank structure and update procedures
+
+All agents and contributors must reference these files for implementation details, process compliance, and cross-file dependencies.
+
 ### System Architecture
 
 [High-level system design and component relationships]
@@ -145,9 +156,9 @@ This section provides an overview of the system architecture, including key comp
 
 ### Pattern Compliance
 
-## Task-Script-Prompt 1:1:1 Pattern
+# Task-Script-Prompt 1:1:1 Pattern
 
-### Overview
+## Overview
 
 Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentation for each autonomous operation. This ensures every automated task is:
 
@@ -155,39 +166,41 @@ Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentati
 - Backed by a dedicated script in the `scripts/` folder
 - Documented with a corresponding `.prompt.md` file in `memory-bank/prompts/`
 
-### Procedure
+## Procedure
 
 1. **Create a Script**: Place a script in `scripts/` that performs the desired operation, using best practices for portability and clarity.
 2. **Define a Task**: Add a VS Code task in `.vscode/tasks.json` referencing the script, with a descriptive label and details for autonomous use.
 3. **Document with a Prompt**: Write a `.prompt.md` file in `memory-bank/prompts/` explaining the task, script, and usage instructions for AI agents.
 4. **Maintain 1:1:1 Mapping**: Ensure each task has exactly one script and one prompt, and vice versa, for traceability and maintainability.
 5. **Update Memory Bank**: After adding or modifying a task, update the memory bank to record the new mapping and procedure.
+6. **Reference Internal Instructions**: For all new patterns, protocols, or conventions, update or create a file in `memory-bank/instructions/` and reference it here and in other relevant Memory Bank files.
 
-### Benefits
+## Benefits
 
 - Enables autonomous, repeatable task execution by AI agents
 - Ensures all tasks are discoverable and documented
 - Supports future extensibility and onboarding
 
-### Example
+## Example
 
 - Task: `Get Current Date/Time (Québec City Local)`
 
-### Reuse
+## Reuse
 
 This pattern should be followed for all new automated tasks. When initializing a project, ensure this procedure is documented and used for every new task addition.
 
 - **MANDATORY**: Deviations require explicit justification and documentation
 - **MANDATORY**: New patterns must be documented here immediately
 
-#### Architecture Enforcement
+### Architecture Enforcement
 
 - **MANDATORY**: Verify component relationships before modifications
 - **MANDATORY**: Ensure interface contracts are maintained
 - **MANDATORY**: Performance implications must be considered
 
-#### Cross-Agent Coordination
+### Cross-Agent Coordination
 
 - This file defines the technical foundation all AI agents must respect
 - Architecture changes require consensus and full documentation
 - Pattern violations indicate need for system redesign consideration
+- Internal documentation in `memory-bank/instructions/` supplements this file and must be referenced for all technical protocols, conventions, and system patterns.

@@ -37,7 +37,7 @@
     },
     {
       "command": "bash ${workspaceFolder}/scripts/memory-bank-validate.sh",
-      "detail": "Checks memory bank completeness and consistency. See memory-bank/prompts/memory-update.prompt.md.",
+      "detail": "Checks memory bank completeness and consistency. See memory-bank/prompts/update-memory-bank.prompt.md.",
       "group": {
         "isDefault": false,
         "kind": "test"

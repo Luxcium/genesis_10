@@ -26,7 +26,7 @@ This prompt describes how to use the autonomous AI agent task for retrieving the
 ## Best Practices
 - Always use the provided task for consistent results.
 - Do not modify the script or task label without updating this prompt.
-- Maintain 1:1:1 mapping: **task ↔ script ↔ prompt** for clarity and maintainability.
+- Maintain 1:1:1 mapping: **task ↔ script ↔ prompt** for clarity and maintainability. See [systemPatterns.md](../systemPatterns.md) for details.
 
 ---
 
@@ -48,4 +48,9 @@ The active terminal's last run command
 terminalSelection: terminalSelection (Built-In)
 The active terminal's selection
 
-_Last updated: 2025-08-04_
+## References
+- [Task-Script-Prompt 1:1:1 Pattern](../systemPatterns.md)
+- [Prompt Files Creation](../instructions/prompt-files.instructions.md)
+- [Instructions Files Usage](../instructions/instructions-files.instructions.md)
+
+_Last updated: 2025-08-05_

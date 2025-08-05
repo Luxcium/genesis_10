@@ -35,16 +35,19 @@ This section provides a high-level overview of the project's current state, incl
 
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
+- 2025-08-04: Added memory bank initialization, validation, and system info tasks with corresponding prompts
 
 ### Features Implemented
 
 - **TypeScript Build Task**: Fully implemented, documented, and protocol-compliant
 - **DevContainers Expert Chat Mode**: Comprehensive expert assistance for all dev container scenarios including setup, configuration, troubleshooting, and best practices
+- **Memory Bank Tools**: Prompt files and VS Code tasks for initializing, validating, and inspecting system information of the memory bank
 
 ### Technical Infrastructure
 
 - TypeScript build script (`scripts/build-ts-project.sh`) and VS Code task (`Build TypeScript Project`) in place
 - DevContainers Expert chat mode (`memory-bank/chatmodes/devcontainers-expert.chatmode.md`) with full knowledge base integration
+- Memory bank maintenance scripts and tasks (`memory-bank-init`, `memory-bank-validate`, `system-info`) documented with prompts
 
 ## Current Work
 

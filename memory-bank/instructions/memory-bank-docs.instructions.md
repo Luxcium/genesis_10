@@ -351,4 +351,4 @@ This guide is maintained by the Cline and the Cline Discord Community:
 
 ---
 
-_The Memory Bank methodology is an open approach to AI context management and can be adapted to different tools and workflows._
+_The Memory Bank methodology is an open approach to AI context management and shall be adapted to our different tools and workflows._

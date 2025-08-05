@@ -1,5 +1,7 @@
 # Progress Log
 
+See [docs/README.md](docs/README.md) for an overview of Memory Bank documentation.
+
 Use this document to track the overall progress of the project, including completed work, current tasks, and remaining objectives. It serves as a central reference for both human developers and AI agents to understand the project's status.
 
 - Tracks what works and what’s left to build
@@ -33,6 +35,7 @@ This section provides a high-level overview of the project's current state, incl
 
 ### Major Milestones Achieved
 
+- 2025-08-05: Added Memory Bank documentation index and cross-referenced core files
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
 

@@ -1,5 +1,8 @@
 # Active Context
 
+See [docs/README.md](docs/README.md) for an index of Memory Bank documentation.
+
+
 ## Current Work Focus
 
 **Primary Objective:**
@@ -13,6 +16,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added `docs/README.md` summarizing Memory Bank documentation and linked it from core files
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
@@ -36,6 +40,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Added `memory-bank/docs/README.md` and cross-referenced it in Memory Bank core files
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`

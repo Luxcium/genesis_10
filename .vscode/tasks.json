@@ -2,7 +2,7 @@
   "tasks": [
     {
       "command": "bash ${workspaceFolder}/scripts/build-ts-project.sh",
-      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script.",
+      "detail": "Compiles the TypeScript project in src. See memory-bank/prompts/build-ts-project.prompt.md.",
       "group": {
         "isDefault": false,
         "kind": "build"
@@ -12,7 +12,7 @@
     },
     {
       "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",
-      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script.",
+      "detail": "Outputs Québec City local date/time. See memory-bank/prompts/get-current-datetime.prompt.md.",
       "group": {
         "isDefault": true,
         "kind": "build"
@@ -69,6 +69,7 @@
         "reveal": "always"
       },
       "problemMatcher": []
+
     }
   ],
   "version": "2.0.0"

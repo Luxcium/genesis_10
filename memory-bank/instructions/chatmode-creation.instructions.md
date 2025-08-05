@@ -14,7 +14,7 @@ To create a new chat mode:
 5. Do not duplicate tool lists—rely on user or workspace configuration
 6. Use only one top-level header per file
 
-For more details on instructions files, see [instructions-files.instructions.md](./instructions-files.instructions.md).
+For more details on instructions files, see [instructions-files.instructions.md](../instructions/instructions-files.instructions.md).
 
 ## Custom Chat Modes Overview
 
@@ -65,6 +65,6 @@ This is where you provide specific prompts, guidelines, or any other relevant in
 
 For additional guidance, see:
 
-- [Instructions Files Usage](./instructions-files.instructions.md)
-- [Prompt Files Creation](./prompt-files.instructions.md)
-- [Workspace Settings Configuration](./settings.instructions.md)
+- [Instructions Files Usage](../instructions/instructions-files.instructions.md)
+- [Prompt Files Creation](../instructions/prompt-files.instructions.md)
+- [Workspace Settings Configuration](../instructions/settings.instructions.md)

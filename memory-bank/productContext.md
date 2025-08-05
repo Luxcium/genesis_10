@@ -1,5 +1,7 @@
 # Product Context
 
+See [docs/README.md](docs/README.md) for an overview of Memory Bank documentation.
+
 Use this document to define the product's vision, user experience goals, features, and business context. This context is essential for guiding development and ensuring alignment with user needs and business objectives.
 
 - Explains why the project exists

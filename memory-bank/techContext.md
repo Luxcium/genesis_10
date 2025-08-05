@@ -1,5 +1,7 @@
 # Tech Context
 
+See [docs/README.md](docs/README.md) for an overview of Memory Bank documentation.
+
 Use this document to provide a comprehensive overview of the technology stack, development environment, and technical constraints for the project. This context is essential for both human developers and AI agents to understand the project's technical landscape.
 
 - Lists technologies and frameworks used

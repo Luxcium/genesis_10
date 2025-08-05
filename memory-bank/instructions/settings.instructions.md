@@ -67,6 +67,6 @@ By default, prompt files are located in the `memory-bank/prompts` folder of your
 
 For implementation details, see:
 
-- [Instructions Files Usage](./instructions-files.instructions.md)
-- [Prompt Files Creation](./prompt-files.instructions.md)
-- [Chat Mode Creation Guidelines](./chatmode-creation.instructions.md)
+- [Instructions Files Usage](../instructions/instructions-files.instructions.md)
+- [Prompt Files Creation](../instructions/prompt-files.instructions.md)
+- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md)

@@ -1,5 +1,7 @@
 # Project Brief
 
+See [docs/README.md](docs/README.md) for an overview of Memory Bank documentation.
+
 Use this document to define the project's identity, vision, scope, and success criteria. This brief serves as the foundational reference for both human developers and AI agents, ensuring alignment on project goals and requirements.
 
 - The foundation of your project

@@ -16,6 +16,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added missing `mode`, `model`, and `tools` fields to the TypeScript build and current datetime prompt files
 - Added `docs/README.md` summarizing Memory Bank documentation and linked it from core files
 - Added VS Code tasks and prompt files for memory bank initialization, validation, and system information scripts
 - Added `memory-bank/README.md` with subfolder policy and `README.stub.md` template
@@ -43,6 +44,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Updated `memory-bank/prompts/build-ts-project.prompt.md` and `memory-bank/prompts/get-current-datetime.prompt.md` with required front matter fields
 - Added `memory-bank/docs/README.md` and cross-referenced it in Memory Bank core files
 - Added VS Code tasks and prompts for memory bank initialization, validation, and system info scripts
 - Added `memory-bank/README.md` and `README.stub.md` for subfolder documentation policy

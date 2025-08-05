@@ -38,6 +38,7 @@ This section provides a high-level overview of the project's current state, incl
 - 2025-08-05: Added Memory Bank documentation index and cross-referenced core files
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
+- 2025-08-05: Added required metadata fields to TypeScript build and current datetime prompts for tooling compliance
 - 2025-08-05: Added VS Code tasks and prompts for memory bank initialization, validation, and system information scripts
 - 2025-08-05: Introduced `memory-bank/README.md` policy requiring README in every subfolder and provided `README.stub.md` template
 
@@ -46,9 +47,9 @@ This section provides a high-level overview of the project's current state, incl
 
 - **TypeScript Build Task**: Fully implemented, documented, and protocol-compliant
 - **DevContainers Expert Chat Mode**: Comprehensive expert assistance for all dev container scenarios including setup, configuration, troubleshooting, and best practices
+- **Prompt Metadata Compliance**: Added missing `mode`, `model`, and `tools` fields to build and datetime prompt files
 - **Memory Bank Maintenance Tasks**: VS Code tasks and prompts for initializing, validating, and retrieving system information
 - **Subfolder README Policy**: Ensures each memory bank subdirectory documents its purpose using `README.stub.md`
- 
 
 ### Technical Infrastructure
 

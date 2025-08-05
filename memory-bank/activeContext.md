@@ -13,6 +13,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added `memory-bank/README.md` and `memory-bank/docs/README.md` with cross-links to core files and instructions
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
@@ -20,14 +21,13 @@ Memory Bank population and validation (August 2025)
 
 ### Last Session Summary
 
-- Analyzed all devcontainer documentation files to understand comprehensive dev container ecosystem
-- Created specialized DevContainers Expert chat mode with deep knowledge of setup, configuration, troubleshooting, and best practices
-- Followed Memory Bank protocol and chatmode creation guidelines strictly
-- Updated chatmodes documentation to maintain synchronization
-- Began referencing internal instructions documentation in all relevant Memory Bank files.
+- Created `memory-bank/README.md` summarizing core files and subdirectories.
+- Added `memory-bank/docs/README.md` describing available documentation references.
+- Cross-linked new READMEs with instructions and ran validation (missing `instructions/copilot.instructions.md`).
 
 ### Recent Decisions
 
+- Introduced READMEs for memory bank root and docs to improve navigation and cohesion.
 - Created DevContainers Expert chat mode to provide specialized knowledge for all dev container scenarios
 - Synthesized comprehensive knowledge from 9 devcontainer documentation files into actionable expert guidance
 - Prioritized comprehensive coverage over simplified approaches for maximum utility
@@ -36,6 +36,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Added `memory-bank/README.md` and `memory-bank/docs/README.md` summarizing structure and references.
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`

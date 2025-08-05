@@ -33,11 +33,13 @@ This section provides a high-level overview of the project's current state, incl
 
 ### Major Milestones Achieved
 
+- 2025-08-05: Added memory-bank/README.md and memory-bank/docs/README.md summarizing structure and documentation references
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
 
 ### Features Implemented
 
+- **Memory Bank READMEs**: Root and docs summaries cross-linked with instructions
 - **TypeScript Build Task**: Fully implemented, documented, and protocol-compliant
 - **DevContainers Expert Chat Mode**: Comprehensive expert assistance for all dev container scenarios including setup, configuration, troubleshooting, and best practices
 
@@ -56,7 +58,7 @@ This section provides a high-level overview of the project's current state, incl
 
 ### Recent Sessions Summary
 
-- **Last Session**: [Date - key accomplishments and decisions]
+- **Last Session**: 2025-08-05 - Created memory-bank README files and ran validation (missing instructions/copilot.instructions.md)
 - **Previous Session**: [Date - key accomplishments and decisions]
 - **Session Before**: [Date - key accomplishments and decisions]
 

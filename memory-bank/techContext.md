@@ -170,6 +170,10 @@ VARIABLE_3=description_and_example_value
 - **Configuration Sync**: [How tool configurations stay aligned]
 - **Conflict Resolution**: [How to handle conflicting tool requirements]
 
+## Module Initialization Tasks (Placeholder)
+
+- Module initialization tasks are outlined but inactive until the module is initialized. Refer to the [initialization prompt](../prompts/initialization.prompt.md) and the internal [tasks guide](../docs/tasks.md) for activation details.
+
 ## AI Agent Instructions
 
 ### Environment Compliance

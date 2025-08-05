@@ -56,6 +56,7 @@ Memory Bank population and validation (August 2025)
 - Complete Memory Bank population for all core files
 - Validate cross-references and consistency, especially with internal documentation and instructions
 - Establish a workflow for ongoing Memory Bank updates, including regular review of `memory-bank/instructions/` and related documentation
+- Draft module initialization tasks as placeholders to activate when the module is initialized; see [initialization prompt](../prompts/initialization.prompt.md) and internal [tasks guide](../docs/tasks.md)
 
 ### Pending Dependencies
 

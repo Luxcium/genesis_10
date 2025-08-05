@@ -147,6 +147,10 @@ This section defines the product's vision, including its purpose, target users, 
 - **Completeness**: [Information completeness standards]
 - **Consistency**: [Cross-platform and cross-feature consistency]
 
+## Module Initialization Tasks (Placeholder)
+
+- Module initialization tasks will be activated once the module is initialized. For preparation details, refer to the [initialization prompt](../prompts/initialization.prompt.md) and the internal [tasks guide](../docs/tasks.md).
+
 ## AI Agent Instructions
 
 ### User-Centric Development

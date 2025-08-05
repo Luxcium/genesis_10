@@ -73,6 +73,7 @@ This section provides a high-level overview of the project's current state, incl
 - [Priority 1 - scope and urgency]
 - [Priority 2 - scope and urgency]
 - [Priority 3 - scope and urgency]
+- Prepare module initialization tasks as placeholders to activate when the module is initialized; see [initialization prompt](../prompts/initialization.prompt.md) and [tasks guide](../docs/tasks.md)
 
 ### Medium-term Goals (Next 1-2 Weeks)
 

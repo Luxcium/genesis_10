@@ -192,6 +192,10 @@ This pattern should be followed for all new automated tasks. When initializing a
 - **MANDATORY**: Deviations require explicit justification and documentation
 - **MANDATORY**: New patterns must be documented here immediately
 
+## Module Initialization Tasks (Placeholder)
+
+- Module initialization tasks are prepared but inactive until the module is initialized. Refer to the [initialization prompt](../prompts/initialization.prompt.md) and the [tasks guide](../docs/tasks.md) for activation details.
+
 ### Architecture Enforcement
 
 - **MANDATORY**: Verify component relationships before modifications

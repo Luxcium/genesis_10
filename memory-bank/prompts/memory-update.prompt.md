@@ -6,6 +6,10 @@ This prompt template ensures comprehensive memory bank updates that maintain con
 ## Template Usage
 Use this prompt when explicitly updating memory bank, after major changes, or when preparing for session handoffs.
 
+## Validation Task
+- **VS Code Task:** Validate Memory Bank
+- **Script:** `scripts/memory-bank-validate.sh`
+
 ## Prompt Template
 
 ```

@@ -14,7 +14,7 @@ This section provides an overview of the system architecture, including key comp
 
 ## Internal Documentation and Instructions
 
-All system patterns, conventions, and technical protocols are further detailed in the internal documentation located in `memory-bank/instructions/`. This directory contains:
+All system patterns, conventions, and technical protocols are further detailed in the internal documentation located in `instructions/`. This directory contains:
 
 - Protocols for chatmode creation, prompt files, and instructions files
 - Prettier and formatting configuration
@@ -164,16 +164,16 @@ Establish a 1:1:1 mapping between VS Code tasks, scripts, and prompt documentati
 
 - Clearly defined in `.vscode/tasks.json`
 - Backed by a dedicated script in the `scripts/` folder
-- Documented with a corresponding `.prompt.md` file in `memory-bank/prompts/`
+- Documented with a corresponding `.prompt.md` file in `prompts/`
 
 ## Procedure
 
 1. **Create a Script**: Place a script in `scripts/` that performs the desired operation, using best practices for portability and clarity.
 2. **Define a Task**: Add a VS Code task in `.vscode/tasks.json` referencing the script, with a descriptive label and details for autonomous use.
-3. **Document with a Prompt**: Write a `.prompt.md` file in `memory-bank/prompts/` explaining the task, script, and usage instructions for AI agents.
+3. **Document with a Prompt**: Write a `.prompt.md` file in `prompts/` explaining the task, script, and usage instructions for AI agents.
 4. **Maintain 1:1:1 Mapping**: Ensure each task has exactly one script and one prompt, and vice versa, for traceability and maintainability.
 5. **Update Memory Bank**: After adding or modifying a task, update the memory bank to record the new mapping and procedure.
-6. **Reference Internal Instructions**: For all new patterns, protocols, or conventions, update or create a file in `memory-bank/instructions/` and reference it here and in other relevant Memory Bank files.
+6. **Reference Internal Instructions**: For all new patterns, protocols, or conventions, update or create a file in `instructions/` and reference it here and in other relevant Memory Bank files.
 
 ## Benefits
 
@@ -203,4 +203,4 @@ This pattern should be followed for all new automated tasks. When initializing a
 - This file defines the technical foundation all AI agents must respect
 - Architecture changes require consensus and full documentation
 - Pattern violations indicate need for system redesign consideration
-- Internal documentation in `memory-bank/instructions/` supplements this file and must be referenced for all technical protocols, conventions, and system patterns.
+- Internal documentation in `instructions/` supplements this file and must be referenced for all technical protocols, conventions, and system patterns.

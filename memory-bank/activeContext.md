@@ -3,7 +3,7 @@
 ## Current Work Focus
 
 **Primary Objective:**
-Meta Project Maintenance Mode — synchronize and populate all Memory Bank core files with real, project-specific information. Ensure all internal documentation (see `memory-bank/instructions/`) is referenced and integrated into the Memory Bank for discoverability and operational clarity.
+Meta Project Maintenance Mode — synchronize and populate all Memory Bank core files with real, project-specific information. Ensure all internal documentation (see `instructions/`) is referenced and integrated into the Memory Bank for discoverability and operational clarity.
 
 **Current Phase:**
 Meta-maintenance and documentation synchronization
@@ -14,9 +14,9 @@ Memory Bank population and validation (August 2025)
 ### Recent Changes
 
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
-- Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
+- Updated `chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
-- Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Internal documentation files added to `instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
 
 ### Last Session Summary
 
@@ -32,12 +32,12 @@ Memory Bank population and validation (August 2025)
 - Synthesized comprehensive knowledge from 9 devcontainer documentation files into actionable expert guidance
 - Prioritized comprehensive coverage over simplified approaches for maximum utility
 - Followed strict Memory Bank protocols and chatmode creation guidelines
-- Decided to reference and integrate all internal documentation in `memory-bank/instructions/` for agent context and discoverability.
+- Decided to reference and integrate all internal documentation in `instructions/` for agent context and discoverability.
 
 ### Code Changes
 
-- Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
-- Updated `memory-bank/chatmodes/README.md` to include the new chat mode
+- Added `chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
+- Updated `chatmodes/README.md` to include the new chat mode
 - Previously: Added `scripts/build-ts-project.sh`, `Build TypeScript Project` task, and `build-ts-project.prompt.md`
 - Previously: Updated scripts/README.md and prompts/README.md
 - Referenced internal instructions documentation in Memory Bank core files.
@@ -49,13 +49,13 @@ Memory Bank population and validation (August 2025)
 1. Populate `projectbrief.md` with meta project identity, vision, and goals
 2. Update `productContext.md` with product vision and user experience context
 3. Fill in `systemPatterns.md`, `techContext.md`, and `progress.md` with real project data
-4. Ensure all internal documentation in `memory-bank/instructions/` is referenced in the Memory Bank and cross-linked where relevant.
+4. Ensure all internal documentation in `instructions/` is referenced in the Memory Bank and cross-linked where relevant.
 
 ### Upcoming Priorities (Next 2-3 Sessions)
 
 - Complete Memory Bank population for all core files
 - Validate cross-references and consistency, especially with internal documentation and instructions
-- Establish a workflow for ongoing Memory Bank updates, including regular review of `memory-bank/instructions/` and related documentation
+- Establish a workflow for ongoing Memory Bank updates, including regular review of `instructions/` and related documentation
 
 ### Pending Dependencies
 
@@ -79,14 +79,14 @@ Memory Bank population and validation (August 2025)
 
 ### Current Mental Model
 
-The project is in a meta-maintenance phase. All Memory Bank files exist but are templates. The immediate goal is to populate them with real, actionable project data to enable effective autonomous operation and cross-agent coordination. Internal documentation in `memory-bank/instructions/` is now referenced and should be used for all protocol, process, and operational guidance.
+The project is in a meta-maintenance phase. All Memory Bank files exist but are templates. The immediate goal is to populate them with real, actionable project data to enable effective autonomous operation and cross-agent coordination. Internal documentation in `instructions/` is now referenced and should be used for all protocol, process, and operational guidance.
 
 ### Critical Patterns to Remember
 
 - Always update Memory Bank after significant changes
 - Prioritize `activeContext.md` for current state and next steps
 - Maintain cross-file consistency and references
-- Reference and update internal documentation in `memory-bank/instructions/` as part of all Memory Bank updates
+- Reference and update internal documentation in `instructions/` as part of all Memory Bank updates
 
 ### Learnings and Insights
 

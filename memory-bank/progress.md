@@ -35,6 +35,7 @@ This section provides a high-level overview of the project's current state, incl
 
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
+- 2025-08-05: Converted Memory Bank references to relative paths and validated link integrity
 
 ### Features Implemented
 
@@ -44,7 +45,7 @@ This section provides a high-level overview of the project's current state, incl
 ### Technical Infrastructure
 
 - TypeScript build script (`scripts/build-ts-project.sh`) and VS Code task (`Build TypeScript Project`) in place
-- DevContainers Expert chat mode (`memory-bank/chatmodes/devcontainers-expert.chatmode.md`) with full knowledge base integration
+- DevContainers Expert chat mode (`chatmodes/devcontainers-expert.chatmode.md`) with full knowledge base integration
 
 ## Current Work
 
@@ -173,18 +174,18 @@ This section provides a high-level overview of the project's current state, incl
 - **MANDATORY**: Update this file after every significant work session
 - **MANDATORY**: Document all completed work with specific outcomes
 - **MANDATORY**: Record new issues and blockers immediately when discovered
-- **MANDATORY**: Reference internal documentation and instructions in `memory-bank/instructions/` for progress tracking protocols, update procedures, and documentation standards.
+- **MANDATORY**: Reference internal documentation and instructions in `instructions/` for progress tracking protocols, update procedures, and documentation standards.
 
 ### Status Reporting
 
 - **MANDATORY**: Maintain accurate completion percentages for each project phase
 - **MANDATORY**: Update current work sections before starting new tasks
 - **MANDATORY**: Document lessons learned while they are fresh
-- **MANDATORY**: Consult `memory-bank/instructions/` for reporting standards, documentation templates, and update workflows.
+- **MANDATORY**: Consult `instructions/` for reporting standards, documentation templates, and update workflows.
 
 ### Cross-Agent Coordination
 
 - This file provides the authoritative project status for all AI agents
 - All agents must sync progress updates to maintain consistency
 - Conflicting progress reports indicate need for reconciliation and clarification
-- Internal documentation in `memory-bank/instructions/` supplements this file and should be referenced for all progress tracking and reporting procedures.
+- Internal documentation in `instructions/` supplements this file and should be referenced for all progress tracking and reporting procedures.

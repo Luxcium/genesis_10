@@ -70,6 +70,10 @@ You are expected to act autonomously, making decisions based on the information 
 - Known issues
 - Evolution of project decisions
 
+### Internal Link Convention
+
+Use relative Markdown links with the `../<folder>/<file>` pattern when referencing other memory bank files. Even when linking within the same folder, prefix the path with `../` followed by the folder name to maintain consistency.
+
 ### CRITICAL MEMORY BANK PROTOCOL (keeping it stateful, ingesting previous context)
 
 **IMPERATIVE REQUIREMENT**: I am the AI Agent who MUST synchronize memory bank now, and on EVERY task execution:

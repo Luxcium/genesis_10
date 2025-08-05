@@ -6,6 +6,10 @@ This prompt template guides AI agents through the complete initialization of a n
 ## Template Usage
 Use this prompt when starting a new project or when memory bank needs complete regeneration.
 
+## Automation Task
+- **VS Code Task:** Initialize Memory Bank
+- **Script:** `scripts/memory-bank-init.sh`
+
 ## Prompt Template
 
 ```

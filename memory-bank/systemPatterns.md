@@ -1,5 +1,7 @@
 # System Patterns
 
+See [docs/README.md](docs/README.md) for an overview of Memory Bank documentation.
+
 Use this document to define the system architecture, design patterns, and key technical decisions for the project. This serves as a foundational reference for both human developers and AI agents.
 
 - Documents the system architecture

@@ -9,6 +9,10 @@ following the instructions in the [The Complete Guide to Cline Memory Bank](../i
 
 Shall you find any missing information, you shall add it to the memory bank files, following the instructions in the [Memory Bank Protocol](../instructions/memory-bank-core.instructions.md), and anything else that is required from you.
 
+## Validation Task
+- **VS Code Task:** Validate Memory Bank
+- **Script:** `scripts/memory-bank-validate.sh`
+
 ## Tools
 
 Run a natural language search for relevant code or documentation comments from the user's current workspace. Returns relevant code snippets from the user's current workspace if it is large, or the full contents of the workspace if it is small.

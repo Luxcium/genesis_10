@@ -1,6 +1,6 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
-tools: ['codebase', 'usages', 'editFiles', 'runTasks',  'fetch', 'search',]
+tools: ['codebase', 'usages', 'editFiles', 'runTasks',  'fetch', 'search', 'vscode-api-toolset']
 model: GPT-4.1
 ---
 
@@ -87,3 +87,18 @@ Search and read files in entire workspace
 - listDirectory
 - readNotebookCellOutput
 - readFile
+
+## ToolSet: vscode-api-toolset
+
+A set of tools for fetching data, using the VSCode API, terminal checking usages, and managing extensions.
+
+ - codebase
+ - copilotCodingAgent
+ - extensions
+ - fetch
+ - findTestFiles
+ - githubRepo
+ - microsoft_docs_search
+ - usages
+ - vscodeAPI
+ - insertEdit

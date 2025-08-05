@@ -50,6 +50,22 @@ This directory contains reusable prompt templates for common tasks, workflows, a
 
 **Purpose:** Ensures comprehensive memory bank updates, maintaining consistency across all files and providing complete context for AI agents. Includes review checklists and update workflows.
 
+### [notebooks-init.prompt.md](../prompts/notebooks-init.prompt.md)
+
+**Purpose:** Describes the initialization process for the `notebooks` folder using its placeholder script and VS Code task.
+
+### [python-init.prompt.md](../prompts/python-init.prompt.md)
+
+**Purpose:** Describes the initialization process for the `python` folder using its placeholder script and VS Code task.
+
+### [update-memory-bank.prompt.md](../prompts/update-memory-bank.prompt.md)
+
+**Purpose:** Guides agents through updating the memory bank after significant changes, ensuring documentation remains synchronized.
+
+### [web-init.prompt.md](../prompts/web-init.prompt.md)
+
+**Purpose:** Describes the initialization process for the `web` folder using its placeholder script and VS Code task.
+
 ---
 
 > **Note:** For detailed content, see each `.prompt.md` file directly. All prompts are cross-referenced and follow the Memory Bank protocol for persistent, high-quality documentation.

@@ -24,6 +24,36 @@
       },
       "problemMatcher": [],
       "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/web-init.sh",
+      "detail": "Initializes the web module using the placeholder web-init.sh script.",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Initialize Web Module",
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/python-init.sh",
+      "detail": "Initializes the python module using the placeholder python-init.sh script.",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Initialize Python Module",
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/notebooks-init.sh",
+      "detail": "Initializes the notebooks module using the placeholder notebooks-init.sh script.",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Initialize Notebooks Module",
+      "type": "shell"
     }
   ],
   "version": "2.0.0"

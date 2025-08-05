@@ -12,18 +12,63 @@
     },
     {
       "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",
-      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script.",
+      "detail": "Outputs the current local date/time for Qu\u00e9bec City (America/Toronto timezone) using the related script.",
       "group": {
         "isDefault": true,
         "kind": "build"
       },
-      "label": "Get Current Date/Time (Québec City Local)",
+      "label": "Get Current Date/Time (Qu\u00e9bec City Local)",
       "presentation": {
         "panel": "shared",
         "reveal": "always"
       },
       "problemMatcher": [],
       "type": "shell"
+    },
+    {
+      "label": "Initialize Memory Bank",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/scripts/memory-bank-init.sh",
+      "detail": "Initializes the complete memory bank structure using the memory-bank-init.sh script.",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "panel": "shared",
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Validate Memory Bank",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/scripts/memory-bank-validate.sh",
+      "detail": "Validates memory bank completeness and consistency using the memory-bank-validate.sh script.",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "panel": "shared",
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "System Info",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/scripts/system-info.sh",
+      "detail": "Displays basic system information and disk usage via the system-info.sh script.",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "panel": "shared",
+        "reveal": "always"
+      },
+      "problemMatcher": []
     }
   ],
   "version": "2.0.0"

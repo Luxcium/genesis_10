@@ -35,6 +35,7 @@ This section provides a high-level overview of the project's current state, incl
 
 - 2025-08-04: Added TypeScript build task, script, and prompt following 1:1:1 protocol (enables future development workflows)
 - 2025-08-04: Created DevContainers Expert chat mode with comprehensive knowledge synthesis from 9 documentation files
+- 2025-08-05: Added documentation index (`memory-bank/docs/README.md`) summarizing references for tasks and prompts
 
 ### Features Implemented
 

@@ -17,6 +17,7 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added `memory-bank/docs/README.md` summarizing documentation references for tasks and prompts
 
 ### Last Session Summary
 
@@ -25,6 +26,7 @@ Memory Bank population and validation (August 2025)
 - Followed Memory Bank protocol and chatmode creation guidelines strictly
 - Updated chatmodes documentation to maintain synchronization
 - Began referencing internal instructions documentation in all relevant Memory Bank files.
+- Created `memory-bank/docs/README.md` summarizing available documentation references for tasks and prompt creation
 
 ### Recent Decisions
 

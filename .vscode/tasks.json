@@ -2,26 +2,86 @@
   "tasks": [
     {
       "command": "bash ${workspaceFolder}/scripts/build-ts-project.sh",
-      "detail": "Builds the TypeScript project in the src folder using the build-ts-project.sh script.",
+      "detail": "See memory-bank/prompts/build-ts-project.prompt.md",
       "group": {
         "isDefault": false,
         "kind": "build"
       },
-      "label": "Build TypeScript Project",
+      "label": "build-ts-project.prompt.md",
       "type": "shell"
     },
     {
       "command": "bash ${workspaceFolder}/scripts/get-current-datetime.sh",
-      "detail": "Outputs the current local date/time for Québec City (America/Toronto timezone) using the related script.",
+      "detail": "See memory-bank/prompts/get-current-datetime.prompt.md",
       "group": {
         "isDefault": true,
         "kind": "build"
       },
-      "label": "Get Current Date/Time (Québec City Local)",
+      "label": "get-current-datetime.prompt.md",
       "presentation": {
         "panel": "shared",
         "reveal": "always"
       },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/update-memory-bank.sh",
+      "detail": "See memory-bank/prompts/update-memory-bank.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "update-memory-bank.prompt.md",
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/make-new-prompt.sh",
+      "detail": "See memory-bank/prompts/make-new-prompt.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "make-new-prompt.prompt.md",
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/make-new-instructions.sh",
+      "detail": "See memory-bank/prompts/make-new-instructions.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "make-new-instructions.prompt.md",
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/init-python.sh",
+      "detail": "See memory-bank/prompts/init-python.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "init-python.prompt.md",
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/init-web.sh",
+      "detail": "See memory-bank/prompts/init-web.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "init-web.prompt.md",
+      "problemMatcher": [],
+      "type": "shell"
+    },
+    {
+      "command": "bash ${workspaceFolder}/scripts/init-notebook.sh",
+      "detail": "See memory-bank/prompts/init-notebook.prompt.md",
+      "group": {
+        "kind": "build"
+      },
+      "label": "init-notebook.prompt.md",
       "problemMatcher": [],
       "type": "shell"
     }

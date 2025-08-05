@@ -50,6 +50,18 @@ This directory contains reusable prompt templates for common tasks, workflows, a
 
 **Purpose:** Ensures comprehensive memory bank updates, maintaining consistency across all files and providing complete context for AI agents. Includes review checklists and update workflows.
 
+### [init-python.prompt.md](../prompts/init-python.prompt.md)
+
+**Purpose:** Placeholder for initializing a Python project environment.
+
+### [init-web.prompt.md](../prompts/init-web.prompt.md)
+
+**Purpose:** Placeholder for initializing a web project environment.
+
+### [init-notebook.prompt.md](../prompts/init-notebook.prompt.md)
+
+**Purpose:** Placeholder for initializing a notebook environment.
+
 ---
 
 > **Note:** For detailed content, see each `.prompt.md` file directly. All prompts are cross-referenced and follow the Memory Bank protocol for persistent, high-quality documentation.

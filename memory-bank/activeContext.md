@@ -17,6 +17,7 @@ Memory Bank population and validation (August 2025)
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
 - Synthesized knowledge from all devcontainer documentation files for expert guidance
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
+- Added placeholder scripts, prompts, and VS Code tasks for memory bank updates, prompt creation, instruction creation, and future Python/web/notebook initialization workflows
 
 ### Last Session Summary
 

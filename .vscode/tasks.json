@@ -23,7 +23,7 @@
         "reveal": "always"
       },
       "problemMatcher": [],
-      "type": "shell",
+      "type": "shell"
     },
     {
       "command": "bash ${workspaceFolder}/scripts/memory-bank-init.sh",

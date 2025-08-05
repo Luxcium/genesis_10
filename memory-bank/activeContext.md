@@ -13,6 +13,7 @@ Memory Bank population and validation (August 2025)
 
 ### Recent Changes
 
+- Added VS Code tasks and prompt files for memory bank initialization, validation, and system information scripts
 - Added `memory-bank/README.md` with subfolder policy and `README.stub.md` template
 - Created `devcontainers-expert.chatmode.md` - comprehensive expert chat mode for all dev container scenarios
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode with description
@@ -38,6 +39,7 @@ Memory Bank population and validation (August 2025)
 
 ### Code Changes
 
+- Added VS Code tasks and prompts for memory bank initialization, validation, and system info scripts
 - Added `memory-bank/README.md` and `README.stub.md` for subfolder documentation policy
 - Added `memory-bank/chatmodes/devcontainers-expert.chatmode.md` - comprehensive expert chat mode
 - Updated `memory-bank/chatmodes/README.md` to include the new chat mode

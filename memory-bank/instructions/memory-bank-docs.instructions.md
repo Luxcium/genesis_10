@@ -14,7 +14,7 @@ To get started with Cline Memory Bank:
 3. **Paste into Cline** - Add as custom instructions or in a .clinerules file
 4. **Initialize** - Ask Cline to "initialize memory bank"
 
-[See detailed setup instructions](#getting-started-with-memory-bank)
+See detailed setup instructions in the getting-started-with-memory-bank section
 
 ## Cline Memory Bank Custom Instructions \[COPY THIS]
 

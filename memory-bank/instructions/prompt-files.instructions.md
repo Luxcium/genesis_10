@@ -32,7 +32,7 @@ applyTo: "memory-bank/prompts/**"
 
 ## Related Documentation
 
-- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md)
-- [Instructions Files Usage](../instructions/instructions-files.instructions.md)
-- [Workspace Settings Configuration](../instructions/settings.instructions.md)
+- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md): Learn how to create and configure chat modes for different workflows.
+- [Instructions Files Usage](../instructions/instructions-files.instructions.md): Reference for using instruction files to guide prompt behavior and workspace automation.
+- [Workspace Settings Configuration](../instructions/settings.instructions.md): Details on configuring workspace settings that may affect prompt execution.
 

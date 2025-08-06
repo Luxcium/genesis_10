@@ -42,6 +42,7 @@ This section provides a high-level overview of the project's current state, incl
 - 2025-08-05: Added required metadata fields to TypeScript build and current datetime prompts for tooling compliance
 - 2025-08-05: Added VS Code tasks and prompts for memory bank initialization, validation, and system information scripts
 - 2025-08-05: Introduced `memory-bank/README.md` policy requiring README in every subfolder and provided `README.stub.md` template
+- 2025-08-06: Reformatted instruction files into single-sentence bullet lists
 
 ### Features Implemented
 

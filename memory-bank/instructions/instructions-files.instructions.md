@@ -51,7 +51,7 @@ applyTo: "memory-bank/instructions/**"
 
 ## Related Documentation
 
-- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md)
-- [Prompt Files Creation](../instructions/prompt-files.instructions.md)
-- [Workspace Settings Configuration](../instructions/settings.instructions.md)
+- [Chat Mode Creation Guidelines](../instructions/chatmode-creation.instructions.md): How to create and structure chat modes for Copilot Chat.
+- [Prompt Files Creation](../instructions/prompt-files.instructions.md): Instructions for creating prompt files and integrating them with instructions files.
+- [Workspace Settings Configuration](../instructions/settings.instructions.md): Guide to configuring workspace settings for Copilot Chat and instructions files.
 

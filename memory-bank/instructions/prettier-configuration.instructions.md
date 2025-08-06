@@ -5,7 +5,9 @@ applyTo: "**/.prettier*,package.json"
 
 # Prettier Configuration
 
-These instructions describe how to set up, maintain, and troubleshoot Prettier and its plugins for this project. Do not install any npm packages or initialize a TypeScript project at this stage—only generate the configuration files as described below.
+- Set up, maintain, and troubleshoot Prettier and its plugins for this project.
+- Avoid installing npm packages or initializing a TypeScript project during configuration.
+- Generate the configuration files exactly as described.
 
 ## Initializing Prettier Configuration (One-Time Setup)
 

@@ -14,35 +14,28 @@ To create a new chat mode:
 5. Do not duplicate tool lists—rely on user or workspace configuration
 6. Use only one top-level header per file
 
-For more details on instructions files, see [instructions-files.instructions.md](../instructions/instructions-files.instructions.md).
-
 ## Custom Chat Modes Overview
 
-The built-in chat modes provide general-purpose configurations for chat in VS Code. For a more tailored chat experience, you can create your own chat modes.
-
-Custom chat modes consist of a set of instructions and tools that are applied when you switch to that mode. For example, a "Plan" chat mode could include instructions for generating an implementation plan and only use read-only tools. By creating a custom chat mode, you can quickly switch to that specific configuration without having to manually select relevant tools and instructions each time.
-
-Custom chat modes are defined in a `.chatmode.md` Markdown file, and can be stored in your workspace for others to use, or in your user profile, where you can reuse them across different workspaces.
-
-You can reference instructions files and tools (sets) in your custom chat mode file.
+- Create custom chat modes to tailor chat behavior in VS Code.
+- Define instructions and tools that activate when you select the mode.
+- Store chat modes in the workspace or user profile for reuse.
+- Reference instructions files and tool sets as needed.
 
 ## Chat Mode File Structure
 
-When the user asks you to generate a plan, you should:
-Pick a relevant and descriptive name in `<chatmode_name>.chatmode.md` name for the chat mode, which is used in the chat mode dropdown list in the Chat view.
-
-
-A chat mode file is a Markdown file with the `.chatmode.md` suffix. It has the following two main sections:
+- Name the file `<chatmode_name>.chatmode.md` for clarity.
+- Use the `.chatmode.md` suffix to identify chat mode files.
+- Split each file into front matter metadata and body instructions.
 
 ### Front Matter Metadata Header
-
-- **`description`**(required): A brief description of the chat mode. This description is displayed as placeholder text in the chat input field and when you hover the mode in the chat mode dropdown list
-- **`tools`**: The user must provide them or you must use those that are already in use. Do not add any because of potential tool hallucinations. Tools MUST BE EXACTLY IDENTICAL AS THE TOOLS THAT EXIST
-- **`model`**(optional): The AI model set to `GPT-4.1` to use when running the prompt. If not specified, the currently selected model in model picker is then used
+- Include a `description` field with a brief summary of the mode.
+- Use only existing tools in the `tools` field to avoid hallucinations.
+- Optionally set `model` to `GPT-4.1` when a specific model is required.
 
 ### Body With Chat Mode Instructions
-
-This is where you provide specific prompts, guidelines, or any other relevant information that you want the AI to follow when in this chat mode. You can also reference instructions files by using Markdown links. The chat mode instructions will complement whatever is specified in the chat prompt.
+- Provide prompts and guidelines for behavior in this mode.
+- Reference instruction files with Markdown links.
+- Ensure the body complements the chat prompt.
 
 ## Creating a Chat Mode File
 

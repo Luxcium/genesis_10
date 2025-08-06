@@ -3,7 +3,7 @@
 ## Core Principles
 
 ### Memory Bank Adherence
-All AI agents operating on this project MUST follow these non-negotiable protocols:
+- Follow these non-negotiable protocols:
 
 1. **Read Before Action**: Always read ALL memory bank files before beginning any task
 2. **Write After Action**: Update relevant memory bank files after completing any significant work

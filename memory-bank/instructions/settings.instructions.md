@@ -5,7 +5,8 @@ applyTo: ".vscode/settings.json"
 
 # Workspace Settings Configuration
 
-This document outlines the VS Code settings for managing chat modes, instructions, and prompts in the workspace. These settings should only be modified with user approval or on user request.
+- Manage VS Code settings for chat modes, instructions, and prompts.
+- Modify settings only with user approval or explicit request.
 
 ## Custom Instructions Settings
 

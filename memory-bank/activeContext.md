@@ -26,6 +26,7 @@ Memory Bank population and validation (August 2025)
 - Internal documentation files added to `memory-bank/instructions/` and referenced in Memory Bank core files for improved cross-linking and agent discoverability.
 - Updated `memory-bank/prompts/get-current-datetime.prompt.md` with references and a link to `systemPatterns.md` reinforcing the 1:1:1 task-script-prompt pattern.
 - Added VS Code tasks for memory bank initialization and validation; updated prompts to reference them
+- Standardized all `.instructions.md` files with scoped `applyTo` paths and imperative statements.
 
 ### Last Session Summary
 

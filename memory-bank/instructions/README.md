@@ -1,51 +1,38 @@
 # Instructions Directory
 
-This directory contains specialized instructions files for AI agents and developers. Each file is listed and summarized below. All instructions follow strict Markdown best practices: one top-level header per file, clear sectioning, and actionable content.
-
----
+This directory contains instructions files for AI agents. Each file includes an `applyTo` property that targets specific paths.
 
 ## List of Instructions Files
 
-### [chatmode-creation.instructions.md](../instructions/chatmode-creation.instructions.md)
+### [chatmode-creation.instructions.md](chatmode-creation.instructions.md)
+Guidance for creating custom chat modes in `memory-bank/chatmodes/`.
 
-**Purpose:** Explains how to create custom chat modes in the workspace, including file structure, required front matter, and best practices for referencing other instructions. Ensures all chat modes are well-documented and follow workspace conventions.
+### [cline.instructions.md](cline.instructions.md)
+Cline workflows and session protocols.
 
-### [cline.instructions.md](../instructions/cline.instructions.md)
+### [conventional-commits-must-be-used.instructions.md](conventional-commits-must-be-used.instructions.md)
+Requirement to use conventional commits with gitmoji.
 
-**Purpose:** Defines Cline-specific workflows, tool usage, and session protocols. Outlines session initialization, plan/act modes, file and development operations, memory bank integration, and error handling. Emphasizes documentation, cross-agent handoff, and quality assurance for Cline.
+### [devcontainers.instructions.md](devcontainers.instructions.md)
+Dev container configuration rules.
 
-### [conventional-commits-must-be-used.instructions.md](../instructions/conventional-commits-must-be-used.instructions.md)
+### [instructions-files.instructions.md](instructions-files.instructions.md)
+Rules for writing instructions files.
 
-**Purpose:** Mandates the use of conventional commit messages with gitmoji. Details required commit types, formatting, and best practices for clarity and traceability. Includes a reference table of commit types and essential gitmoji.
+### [memory-bank-core.instructions.md](memory-bank-core.instructions.md)
+Protocol for maintaining core memory bank files.
 
-### [devcontainers.instructions.md](../instructions/devcontainers.instructions.md)
+### [memory-bank-docs.instructions.md](memory-bank-docs.instructions.md)
+Guidelines for memory bank documentation.
 
-**Purpose:** (Currently empty) Reserved for future instructions on devcontainer setup, configuration, and best practices.
+### [prettier-configuration.instructions.md](prettier-configuration.instructions.md)
+Prettier setup and maintenance instructions.
 
-### [instructions-files.instructions.md](../instructions/instructions-files.instructions.md)
+### [prompt-files.instructions.md](prompt-files.instructions.md)
+Guidance for creating prompt files.
 
-**Purpose:** Provides a comprehensive guide for creating, structuring, and using instructions files in the workspace. Covers front matter, file structure, content guidelines, and quality checklists for actionable, maintainable instructions.
+### [settings.instructions.md](settings.instructions.md)
+VS Code settings for chat modes, instructions, and prompts.
 
-### [memory-bank-core.instructions.md](../instructions/memory-bank-core.instructions.md)
-
-**Purpose:** Defines the Memory Bank protocol, listing all core files and the required update/synchronization workflow for persistent project context. Mandates autonomous documentation and state preservation for all agents.
-
-### [prettier-configuration.instructions.md](../instructions/prettier-configuration.instructions.md)
-
-**Purpose:** Details how to configure, maintain, and troubleshoot Prettier and its plugins for the project. Includes setup steps, maintenance tips, troubleshooting, and documentation requirements for configuration changes.
-
-### [prompt-files.instructions.md](../instructions/prompt-files.instructions.md)
-
-**Purpose:** Explains how to create and use prompt files in the workspace. Covers prompt file structure, metadata, content guidelines, and references to related documentation for reusable, high-quality prompts.
-
-### [settings.instructions.md](../instructions/settings.instructions.md)
-
-**Purpose:** Documents workspace settings for managing chat modes, instructions, and prompts. Describes configuration options, file locations, and best practices for settings management.
-
-### [shared.instructions.md](../instructions/shared.instructions.md)
-
-**Purpose:** Establishes shared standards and protocols for all AI agents, including memory bank adherence, documentation and code standards, workflow protocols, quality standards, and emergency procedures for conflict or corruption.
-
----
-
-> **Note:** For detailed content, see each `.instructions.md` file directly. All instructions are cross-referenced and follow the Memory Bank protocol for persistent, high-quality documentation.
+### [shared.instructions.md](shared.instructions.md)
+Shared standards for all files.
